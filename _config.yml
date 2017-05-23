@@ -1,0 +1,58 @@
+# Site wide configuration
+
+title:            Agile Data Scientist
+locale:           en_US
+url:              http://javierestraviz.com
+# url:              http://localhost:4000
+
+name: Agile Data Scientist :)
+description: Data Science, Software Craftsmanship, etc.
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Site owner
+owner:
+  name: Javier Estraviz
+  avatar: bio-photo-sf.png
+  bio: "My interests: Data Science, Python, R, Agile/Scrum, Software Craftsmanship, High Energy Physics, Foreign Languages, Chess, Street Photography..."
+  email: javier.estraviz@gmail.com
+  disqus-shortname: JavierEstraviz
+  twitter: estraviz
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: estraviz
+  stackoverflow: #712603
+  linkedin: javierestraviz
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
