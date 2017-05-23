@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World!"
 description: "¿De qué va esto? / What's this all about?"
-category: short
+category: blog
 tags: [random]
 comments: true
 ---
