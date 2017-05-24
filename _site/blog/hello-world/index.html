@@ -39,14 +39,14 @@ Las entradas al blog serán indistintamente en castellano o en inglés. Depende 
 
 Saludos!
 ">
-<meta property="og:url" content="http://localhost:4000/short/hello-world/">
+<meta property="og:url" content="http://localhost:4000/blog/hello-world/">
 <meta property="og:site_name" content="Agile Data Scientist">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/short/hello-world/">
+<link rel="canonical" href="http://localhost:4000/blog/hello-world/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Agile Data Scientist Feed">
 
 
@@ -164,7 +164,7 @@ Saludos!
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="http://localhost:4000/short/hello-world/" rel="bookmark" title="Hello World!">Hello World!</a></h1>
+        <h1><a href="http://localhost:4000/blog/hello-world/" rel="bookmark" title="Hello World!">Hello World!</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
@@ -229,11 +229,27 @@ Saludos!</p>
 <script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="http://localhost:4000/assets/js/scripts.min.js"></script>
 
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-99829689-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
 
   
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'JavierEstraviz'; // required: replace example with your forum shortname
+    var disqus_shortname = 'agiledatascientist'; // required: replace example with your forum shortname
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
