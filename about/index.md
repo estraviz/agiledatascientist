@@ -3,9 +3,6 @@ layout: page
 title: About...
 tags: [about]
 comments: false
-image:
-  feature: image-header-about.jpg
-  credit: © Javier Estraviz, 2012
 ---
 
 Actualmente trabajo como Scrum Master/Project Manager en [StubHub](http://stubhub.com), an [eBay](http://ebay.com) company. Anteriormente fui el IT Recruiter de Ticketbis, start-up de venta de entradas (mercado secundario) que fue adquirida por StubHub a mediados de 2016. También tuve un pasado de Programador/Analista/Team Lead en empresas de desarrollo de software y consultoría (sí, todos tenemos un pasado :)
