@@ -2,12 +2,16 @@
 
 - title: About Me
   url: /about/
+  icon: fa-info-circle
 
 - title: My Blog
   url: /posts/
+  icon: fa-pencil
 
 - title: YoHabloIdiomas
   url: http://yohabloidiomas.wordpress.com
+  icon: fa-language
 
 - title: Street Photo
   url: http://javier.estraviz.photography
+  icon: fa-camera-retro
