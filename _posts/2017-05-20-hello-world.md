@@ -8,7 +8,7 @@ comments: true
 ---
 
 This is my first post of the new blog. I hope my intentions to keep this blog alive and updated last for quite a long time.
-<br /><br />
-Las entradas al blog serán indistintamente en castellano o en inglés. Depende del momento :)
-<br /><br />
+
+Las entradas al blog serán indistintamente en castellano o en inglés. Dependerá del momento :)
+
 Saludos!

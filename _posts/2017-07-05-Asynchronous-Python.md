@@ -7,7 +7,7 @@ tags: [video, asyncio, pycon, flask]
 comments: true
 ---
 
-Continuando con el "experimento" de ayer, acabo de ver esta charla de la [PyCon 2017](https://us.pycon.org/2017/about/) sobre programación asíncrona en Python, por [Miguel Grinberg](https://blog.miguelgrinberg.com/). Miguel es el autor de un [conocido libro](https://www.amazon.es/Flask-Web-Development-Developing-Applications/dp/1449372627/) de O'Reilly sobre el microframework [Flask](http://flask.pocoo.org/).
+Continuando con el "experimento" de ayer, acabo de ver esta charla de la [PyCon 2017](https://us.pycon.org/2017/about/) sobre programación asíncrona en Python, por [**Miguel Grinberg**](https://blog.miguelgrinberg.com/). Miguel es el autor de un [conocido libro](https://www.amazon.es/Flask-Web-Development-Developing-Applications/dp/1449372627/) de O'Reilly sobre el microframework [Flask](http://flask.pocoo.org/).
 <br />
 <iframe width="420" height="315" src="https://www.youtube.com/embed/iG6fr81xHKA" frameborder="0" allowfullscreen>&nbsp;</iframe>
 <br />

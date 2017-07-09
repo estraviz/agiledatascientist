@@ -33,3 +33,12 @@ sitemap: false
     font-size: 9pt;
     font-style: italic;
 }
+
+a:hover, .footname {
+    //color: #36c;
+    color: $mypreferredlinkcolor;
+}
+
+#seehere {
+    color: $mypreferredlinkcolor;
+}

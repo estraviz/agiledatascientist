@@ -1,13 +1,13 @@
 # Site navigation links
 
-- title: About...
+- title: About Me
   url: /about/
 
-- title: Posts
+- title: My Blog
   url: /posts/
 
 - title: YoHabloIdiomas
-  url: http://yohabloidiomas.com
+  url: http://yohabloidiomas.wordpress.com
 
-- title: Street Photography
+- title: Street Photo
   url: http://javier.estraviz.photography

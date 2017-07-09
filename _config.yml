@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title:            Agile Data Scientist
-locale:           en_US
+locale:           es_ES
 url:              http://agiledatascientist.com
 # url:              http://localhost:4000
 
