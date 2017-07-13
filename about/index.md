@@ -11,9 +11,9 @@ Actualmente trabajo como Scrum Master & Project Manager en [StubHub](http://stub
 
 Formación
 =========
-* <i class="fa fa-graduation-cap"></i> Licenciado en Física del Estado Sólido por la [Universidad del País Vasco](http://www.ehu.eus).
-* <i class="fa fa-graduation-cap"></i> Master en Business Administration, MBA, por [IESE Business School](http://www.iese.edu), [Universidad de Navarra](https://www.unav.edu).
-* <i class="fa fa-hand-o-right">&nbsp;</i> [Master en Ingeniería Computacional y Sistemas Inteligentes](http://www.ehu.eus/es/web/kisa/prestakuntza-programa) por la [Universidad del País Vasco](http://www.ehu.eus) (*en curso*).
+* <i class="fa fa-graduation-cap"></i> Licenciado en Física del Estado Sólido ([University of the Basque Country](http://www.ehu.eus)).
+* <i class="fa fa-graduation-cap"></i> Master en Business Administration, MBA ([IESE Business School](http://www.iese.edu)).
+* <i class="fa fa-hand-o-right">&nbsp;</i> [Master en Ingeniería Computacional y Sistemas Inteligentes](http://www.ehu.eus/es/web/kisa/prestakuntza-programa) ([University of the Basque Country](http://www.ehu.eus), *en curso*).
 
 <p></p>
 

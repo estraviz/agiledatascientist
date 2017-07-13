@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>It’s Not Continuous Delivery If You Can’t Deploy Right Now &#8211; Agile Data Scientist</title>
-<meta name="description" content="Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.
+<title>SOLID Object-Oriented Design &#8211; Agile Data Scientist</title>
+<meta name="description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
 
 ">
-<meta name="keywords" content="video, CI, CD">
+<meta name="keywords" content="video, SOLID, OOP">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="It’s Not Continuous Delivery If You Can’t Deploy Right Now">
-<meta name="twitter:description" content="Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.
+<meta name="twitter:title" content="SOLID Object-Oriented Design">
+<meta name="twitter:description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
 
 ">
 <meta name="twitter:site" content="@estraviz">
@@ -26,18 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="es_ES">
 <meta property="og:type" content="article">
-<meta property="og:title" content="It’s Not Continuous Delivery If You Can’t Deploy Right Now">
-<meta property="og:description" content="Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.
+<meta property="og:title" content="SOLID Object-Oriented Design">
+<meta property="og:description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
 
 ">
-<meta property="og:url" content="http://localhost:4000/blog/CI-CD/">
+<meta property="og:url" content="http://localhost:4000/blog/SOLID-OO-Design/">
 <meta property="og:site_name" content="Agile Data Scientist">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/blog/CI-CD/">
+<link rel="canonical" href="http://localhost:4000/blog/SOLID-OO-Design/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Agile Data Scientist Feed">
 
 
@@ -160,34 +160,52 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="http://localhost:4000/blog/CI-CD/" rel="bookmark" title="It’s Not Continuous Delivery If You Can’t Deploy Right Now">It’s Not Continuous Delivery If You Can’t Deploy Right Now</a></h1>
+        <h1><a href="http://localhost:4000/blog/SOLID-OO-Design/" rel="bookmark" title="SOLID Object-Oriented Design">SOLID Object-Oriented Design</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.</p>
+      <p>He estado comentando con <em>my colleague</em> <a href="https://twitter.com/xala3pa">@xala3pa</a> que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas <em>inspirational</em> para mí.</p>
 
-<p>Es por ello que voy a intentar coger la rutina de ver una charla técnica, de mediana duración (normalmente &lt; 1 h), al día. Comienzo hoy con esta de <a href="https://kenmugrage.com/"><strong>Ken Mugrage</strong></a> que trata sobre <em>Continuous Delivery</em> (entrega continua) y <em>Continuous Deployment</em> (para tener una clara explicación de la diferencia entre ambos términos, es buena idea <a href="https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff">leer esto</a>).</p>
+<p>En esta línea va la charla de hoy, de <strong><a href="https://www.sandimetz.com/">Sandi Metz</a></strong>, autora del libro <a href="https://www.sandimetz.com/99bottles">99 Bottles of OOP</a> y recomendada por <a href="https://twitter.com/xala3pa">@xala3pa</a>. <strong>Sandi</strong> comienza hablando de la rigidez + fragilidad + inmovilizo + viscosidad de nuestras aplicaciones. Es muy posible que una aplicación que desarrollemos hoy corra el riesgo de “romperse” mañana con cualquier pequeño cambio, con cualesquiera dependencias existentes entre nuestros componentes. Por ello, nos habla del diseño orientado a objetos y los principios <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">SOLID</a>. Como el <em>goal</em> de este blog pretende ayudar(me) (a mí en primera instancia, y al que/la que le sirva de inspiración), reproduzco aquí unos breves apuntes sobre los conceptos que forman el acrónimo SOLID, tal y como los he copiado en mi <a href="https://www.evernote.com/">Evernote</a> durante la visualización del vídeo:</p>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/po712VIZZ7M" frameborder="0" allowfullscreen="">&nbsp;</iframe>
+<ul>
+  <li><strong>S</strong> - <em>Single responsibility</em> - only one reason for a class to change.</li>
+  <li><strong>O</strong> - <em>Open/closed</em> - module should be open for extension but closed for modification.</li>
+  <li><strong>L</strong> - <em>Liskov substitution</em> - subclasses should be substitutable for their base classes.</li>
+  <li><strong>I</strong> - <em>Interface segregation</em> - many client specific interfaces better than a general purpose one.</li>
+  <li><strong>D</strong> - <em>Dependency inversion</em> - depend upon abstractions, not upon concretions.</li>
+</ul>
 
-<p>Veamos si pasados unos días continúo con el “experimento”. En cualquier caso, eso que llevo ganado ;)</p>
+<p>Todos los principios anteriores giran entorno a gestionar convenientemente las dependencias que podemos ocasionar en nuestra aplicación.</p>
+
+<p>Aquí el vídeo:</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/v-2yFMzxqwU" frameborder="0" allowfullscreen="">&nbsp;</iframe>
+<p></p>
+<p>Por último, me quedo con esta frase de <strong>Sandi</strong>:</p>
+
+<blockquote style="text-align: center;">
+<br />
+If your project succeeds it will continue to cost you money.
+<br /><br />
+</blockquote>
 
 <p>Saludos!</p>
 
 
       <p>Share this:&nbsp;
-<a href="https://twitter.com/share?text=It’s Not Continuous Delivery If You Can’t Deploy Right Now&url=&via=estraviz" title="Share on Twitter" target="_blank">
+<a href="https://twitter.com/share?text=SOLID Object-Oriented Design&url=&via=estraviz" title="Share on Twitter" target="_blank">
 	<i class="fa fa-twitter fa-twitter-share fa-lg"></i>
 </a>&nbsp;
-<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/CI-CD/" title="Share on LinkedIn" target="_blank">
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/SOLID-OO-Design/" title="Share on LinkedIn" target="_blank">
 	<i class="fa fa-linkedin fa-linkedin-share fa-lg"></i>
 </a>&nbsp;
 <!--
-<a href="https://plus.google.com/share?url=http://localhost:4000/blog/CI-CD/" title="Share on Google+" target="_blank">
+<a href="https://plus.google.com/share?url=http://localhost:4000/blog/SOLID-OO-Design/" title="Share on Google+" target="_blank">
 	<i class="fa fa-google-plus fa-google-plus-share fa-lg"></i>
 </a>&nbsp;
 -->
-<a href="mailto:?subject=It’s Not Continuous Delivery If You Can’t Deploy Right Now&amp;body=Check out this site http://localhost:4000/blog/CI-CD/" title="Share by e-mail">
+<a href="mailto:?subject=SOLID Object-Oriented Design&amp;body=Check out this site http://localhost:4000/blog/SOLID-OO-Design/" title="Share by e-mail">
 	<i class="fa fa-envelope fa-envelope-share fa-lg"></i>
 </a>&nbsp;
 </p>
@@ -223,7 +241,7 @@
 
 
         </div>
-        <p class="byline"><strong>It’s Not Continuous Delivery If You Can’t Deploy Right Now</strong> was published on <time datetime="2017-07-04T00:00:00+02:00">July 04, 2017</time>.</p>
+        <p class="byline"><strong>SOLID Object-Oriented Design</strong> was published on <time datetime="2017-07-11T00:00:00+02:00">July 11, 2017</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
