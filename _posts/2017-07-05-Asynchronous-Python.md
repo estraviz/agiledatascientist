@@ -2,7 +2,7 @@
 layout: post
 title: "Asynchronous Python for the Complete Beginner"
 description: "Talk introductoria sobre la programación asíncrona en Python"
-category: blog
+category: Python
 tags: [video, asyncio, pycon, flask]
 comments: true
 ---
