@@ -2,8 +2,8 @@
 layout: post
 title: "Becoming a better programmer"
 description: "Un manual para personas que se preocupan por el código"
-category: Software Development
-tags: [video, attitude]
+category: Talks
+tags: [attitude, Personal Career, 10.000 hours]
 comments: true
 ---
 

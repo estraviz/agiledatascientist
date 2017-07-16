@@ -2,8 +2,8 @@
 layout: post
 title: "How to become a Data Scientist in 6 months: a hacker’s approach to career planning"
 description: "Una experiencia personal de reorientación profesional, de un puesto de Project Manager a uno de Data Scientist"
-category: Data Science
-tags: [video, Data Science, PyData]
+category: Talks
+tags: [Data Science, PyData, Personal Career]
 comments: true
 ---
 

@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>SOLID Object-Oriented Design &#8211; Agile Data Scientist</title>
-<meta name="description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
+<title>Domain-Driven Design Distilled &#8211; Agile Data Scientist</title>
+<meta name="description" content="Actualmente tengo acceso ilimitado a una cantidad ingente de libros y vídeos por medio de safaribooksonline. El paraíso para cualquiera interesado en el desarrollo de software. Así que, días atrás, pensé en bajarme un videocurso “ligero” que poder ir siguiendo en el metro, de camino al trabajo. Este Domain-Driven Design Distilled no es precisamente ligero en cuanto a contenido, pero al menos no necesito estar delante de un editor de código para poder seguirlo.
 
 ">
-<meta name="keywords" content="video, SOLID, OOP">
+<meta name="keywords" content="DDD, Safari">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="SOLID Object-Oriented Design">
-<meta name="twitter:description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
+<meta name="twitter:title" content="Domain-Driven Design Distilled">
+<meta name="twitter:description" content="Actualmente tengo acceso ilimitado a una cantidad ingente de libros y vídeos por medio de safaribooksonline. El paraíso para cualquiera interesado en el desarrollo de software. Así que, días atrás, pensé en bajarme un videocurso “ligero” que poder ir siguiendo en el metro, de camino al trabajo. Este Domain-Driven Design Distilled no es precisamente ligero en cuanto a contenido, pero al menos no necesito estar delante de un editor de código para poder seguirlo.
 
 ">
 <meta name="twitter:site" content="@estraviz">
@@ -26,18 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="es_ES">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SOLID Object-Oriented Design">
-<meta property="og:description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
+<meta property="og:title" content="Domain-Driven Design Distilled">
+<meta property="og:description" content="Actualmente tengo acceso ilimitado a una cantidad ingente de libros y vídeos por medio de safaribooksonline. El paraíso para cualquiera interesado en el desarrollo de software. Así que, días atrás, pensé en bajarme un videocurso “ligero” que poder ir siguiendo en el metro, de camino al trabajo. Este Domain-Driven Design Distilled no es precisamente ligero en cuanto a contenido, pero al menos no necesito estar delante de un editor de código para poder seguirlo.
 
 ">
-<meta property="og:url" content="http://localhost:4000/object%20oriented%20programming/SOLID-OO-Design/">
+<meta property="og:url" content="http://localhost:4000/courses/DDD-Distilled/">
 <meta property="og:site_name" content="Agile Data Scientist">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/object%20oriented%20programming/SOLID-OO-Design/">
+<link rel="canonical" href="http://localhost:4000/courses/DDD-Distilled/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Agile Data Scientist Feed">
 
 
@@ -160,52 +160,46 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="http://localhost:4000/object%20oriented%20programming/SOLID-OO-Design/" rel="bookmark" title="SOLID Object-Oriented Design">SOLID Object-Oriented Design</a></h1>
+        <h1><a href="http://localhost:4000/courses/DDD-Distilled/" rel="bookmark" title="Domain-Driven Design Distilled">Domain-Driven Design Distilled</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>He estado comentando con <em>my colleague</em> <a href="https://twitter.com/xala3pa"><strong>@xala3pa</strong></a> que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas <em>inspirational</em> para mí.</p>
+      <p>Actualmente tengo acceso ilimitado a una cantidad ingente de libros y vídeos por medio de <a href="https://www.safaribooksonline.com/">safaribooksonline</a>. El paraíso para cualquiera interesado en el desarrollo de software. Así que, días atrás, pensé en bajarme un videocurso “ligero” que poder ir siguiendo en el metro, de camino al trabajo. Este <a href="https://www.safaribooksonline.com/library/view/domain-driven-design-distilled/9780134593449/"><em>Domain-Driven Design Distilled</em></a> no es precisamente ligero en cuanto a contenido, pero al menos no necesito estar delante de un editor de código para poder seguirlo.</p>
 
-<p>En esta línea va la charla de hoy, de <a href="https://www.sandimetz.com/"><strong>Sandi Metz</strong></a>, autora del libro <a href="https://www.sandimetz.com/99bottles">99 Bottles of OOP</a> y recomendada por <strong>@xala3pa</strong>. <strong>Sandi</strong> comienza hablando de la rigidez + fragilidad + inmovilizo + viscosidad de nuestras aplicaciones. Es muy posible que una aplicación que desarrollemos hoy corra el riesgo de “romperse” mañana con cualquier pequeño cambio, con cualesquiera dependencias existentes entre nuestros componentes. Por ello, nos habla del diseño orientado a objetos y los principios <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">SOLID</a>. Como el <em>goal</em> de este blog pretende ayudar(me) (a mí en primera instancia, y al que/la que le sirva de inspiración), reproduzco aquí unos breves apuntes sobre los conceptos que forman el acrónimo SOLID, tal y como los he copiado en mi <a href="https://www.evernote.com/">Evernote</a> durante la visualización del vídeo:</p>
+<p>El curso está impartido por <a href="https://vaughnvernon.co/"><strong>Vaughn Vernon</strong></a>, autor del conocido <a href="https://www.amazon.es/Implementing-Domain-Driven-Design-VaughnVernon/dp/0321834577/"><em>Implementing Domain-Driven Design</em></a> de 2013, que tuvo continuación el año pasado con el libro que da nombre al curso que he visto yo. Mi primer acercamiento a <a href="https://en.wikipedia.org/wiki/Domain-driven_design">DDD</a> y sin pasar por el ya clásico volumen de <a href="https://twitter.com/ericevans0"><strong>Eric Evans</strong></a>, <a href="https://www.amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/"><em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em></a>, de 2003. Este me queda pendiente para más adelante (<em>para bastante más adelante, diría yo</em>).</p>
 
+<p>La versión <em>Distilled</em> no me ha entusiasmado, <em>to be honest</em>, pero sí me ha despertado cierto interés. Es por ello que me apunto como pendiente y con intención de leer, no tardando demasiado (<em>que no pasen muchos meses, quiero decir</em>), esta versión reducida de la temática: <a href="https://www.infoq.com/minibooks/domain-driven-design-quickly"><em>Domain-Driven Design Quickly</em></a>, que se puede descargar gratuitamente desde <a href="https://www.infoq.com/">InfoQ</a>.</p>
+
+<p>Para finalizar, me apunto por aquí un extracto de la explicación sobre qué es DDD, que podemos leer en <a href="http://dddcommunity.org/">DDD Comunity</a>:</p>
+
+<blockquote>
+Domain-driven design (DDD) is an approach to developing software for complex needs by deeply connecting the implementation to an evolving model of the core business concepts. Its premise is:
 <ul>
-  <li><strong>S</strong> - <em>Single responsibility</em> - only one reason for a class to change.</li>
-  <li><strong>O</strong> - <em>Open/closed</em> - module should be open for extension but closed for modification.</li>
-  <li><strong>L</strong> - <em>Liskov substitution</em> - subclasses should be substitutable for their base classes.</li>
-  <li><strong>I</strong> - <em>Interface segregation</em> - many client specific interfaces better than a general purpose one.</li>
-  <li><strong>D</strong> - <em>Dependency inversion</em> - depend upon abstractions, not upon concretions.</li>
+<li>Place the project’s primary focus on the core domain and domain logic.</li>
+<li>Base complex designs on a model.</li>
+<li>Initiate a creative collaboration between technical and domain experts to iteratively cut ever closer to the conceptual heart of the problem.</li>
 </ul>
 
-<p>Todos los principios anteriores giran entorno a gestionar convenientemente las dependencias que podemos ocasionar en nuestra aplicación.</p>
-
-<p>Aquí el vídeo:</p>
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/v-2yFMzxqwU" frameborder="0" allowfullscreen="">&nbsp;</iframe>
-<p></p>
-<p>Por último, me quedo con esta frase de <strong>Sandi</strong>:</p>
-
-<blockquote style="text-align: center;">
-<br />
-If your project succeeds it will continue to cost you money.
-<br /><br />
+The premise is simple, but pulling it off in the messy real world is hard. It calls for new skills and discipline, and a systematic approach.<br /><br />
+Domain-driven design is not a technology or a methodology. DDD provides a structure of practices and terminology for making design decisions that focus and accelerate software projects dealing with complicated domains.
 </blockquote>
 
 <p>Saludos!</p>
 
 
       <p>Share this:&nbsp;
-<a href="https://twitter.com/share?text=SOLID Object-Oriented Design&url=&via=estraviz" title="Share on Twitter" target="_blank">
+<a href="https://twitter.com/share?text=Domain-Driven Design Distilled&url=&via=estraviz" title="Share on Twitter" target="_blank">
 	<i class="fa fa-twitter fa-twitter-share fa-lg"></i>
 </a>&nbsp;
-<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/object%20oriented%20programming/SOLID-OO-Design/" title="Share on LinkedIn" target="_blank">
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/courses/DDD-Distilled/" title="Share on LinkedIn" target="_blank">
 	<i class="fa fa-linkedin fa-linkedin-share fa-lg"></i>
 </a>&nbsp;
 <!--
-<a href="https://plus.google.com/share?url=http://localhost:4000/object%20oriented%20programming/SOLID-OO-Design/" title="Share on Google+" target="_blank">
+<a href="https://plus.google.com/share?url=http://localhost:4000/courses/DDD-Distilled/" title="Share on Google+" target="_blank">
 	<i class="fa fa-google-plus fa-google-plus-share fa-lg"></i>
 </a>&nbsp;
 -->
-<a href="mailto:?subject=SOLID Object-Oriented Design&amp;body=Check out this site http://localhost:4000/object%20oriented%20programming/SOLID-OO-Design/" title="Share by e-mail">
+<a href="mailto:?subject=Domain-Driven Design Distilled&amp;body=Check out this site http://localhost:4000/courses/DDD-Distilled/" title="Share by e-mail">
 	<i class="fa fa-envelope fa-envelope-share fa-lg"></i>
 </a>&nbsp;
 </p>
@@ -241,7 +235,7 @@ If your project succeeds it will continue to cost you money.
 
 
         </div>
-        <p class="byline"><strong>SOLID Object-Oriented Design</strong> was published on <time datetime="2017-07-11T00:00:00+02:00">July 11, 2017</time>.</p>
+        <p class="byline"><strong>Domain-Driven Design Distilled</strong> was published on <time datetime="2017-07-07T00:00:00+02:00">July 07, 2017</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   

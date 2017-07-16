@@ -2,8 +2,8 @@
 layout: post
 title: "Deliberate Learning"
 description: "Acerca de dojos, katas, koans y aprendizaje"
-category: Learning to Learn
-tags: [video, dojos, katas, koans]
+category: Talks
+tags: [learning, dojos, katas, koans]
 comments: true
 ---
 

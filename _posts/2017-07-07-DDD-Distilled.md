@@ -2,8 +2,8 @@
 layout: post
 title: "Domain-Driven Design Distilled"
 description: "Mi primer curso completado a través de Safari Books Online"
-category: Domain-Driven Design
-tags: [video, course, DDD, safaribooksonline]
+category: Courses
+tags: [DDD, Safari]
 comments: true
 ---
 
