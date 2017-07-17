@@ -5,17 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>It’s Not Continuous Delivery If You Can’t Deploy Right Now &#8211; Agile Data Scientist</title>
-<meta name="description" content="Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.
+<title>Asynchronous Python for the Complete Beginner &#8211; Agile Data Scientist</title>
+<meta name="description" content="Continuando con el “experimento” de ayer, acabo de ver esta charla de la PyCon 2017 sobre programación asíncrona en Python, por Miguel Grinberg. Miguel es el autor de un conocido libro de O’Reilly sobre el microframework Flask.
 
+&nbsp;
+
+La charla no es demasiado larga y va a un nivel introductorio, pero está bien para el que no está familiarizado con el asynchronous Python. A partir de aquí, hay mucho camino que recorrer si uno está interesado en estos temas. En mi caso, para profundizar más adelante, no de inmediato.
+
+Ver asyncio para más detalle técnico sobre este módulo.
+
+Saludos!
 ">
-<meta name="keywords" content="DevOps, CI, CD">
+<meta name="keywords" content="Talks, Python, asyncio, PyCon, Flask">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="It’s Not Continuous Delivery If You Can’t Deploy Right Now">
-<meta name="twitter:description" content="Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.
+<meta name="twitter:title" content="Asynchronous Python for the Complete Beginner">
+<meta name="twitter:description" content="Continuando con el “experimento” de ayer, acabo de ver esta charla de la PyCon 2017 sobre programación asíncrona en Python, por Miguel Grinberg. Miguel es el autor de un conocido libro de O’Reilly sobre el microframework Flask.
 
+&nbsp;
+
+La charla no es demasiado larga y va a un nivel introductorio, pero está bien para el que no está familiarizado con el asynchronous Python. A partir de aquí, hay mucho camino que recorrer si uno está interesado en estos temas. En mi caso, para profundizar más adelante, no de inmediato.
+
+Ver asyncio para más detalle técnico sobre este módulo.
+
+Saludos!
 ">
 <meta name="twitter:site" content="@estraviz">
 <meta name="twitter:creator" content="@estraviz">
@@ -26,18 +40,25 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="es_ES">
 <meta property="og:type" content="article">
-<meta property="og:title" content="It’s Not Continuous Delivery If You Can’t Deploy Right Now">
-<meta property="og:description" content="Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.
+<meta property="og:title" content="Asynchronous Python for the Complete Beginner">
+<meta property="og:description" content="Continuando con el “experimento” de ayer, acabo de ver esta charla de la PyCon 2017 sobre programación asíncrona en Python, por Miguel Grinberg. Miguel es el autor de un conocido libro de O’Reilly sobre el microframework Flask.
 
+&nbsp;
+
+La charla no es demasiado larga y va a un nivel introductorio, pero está bien para el que no está familiarizado con el asynchronous Python. A partir de aquí, hay mucho camino que recorrer si uno está interesado en estos temas. En mi caso, para profundizar más adelante, no de inmediato.
+
+Ver asyncio para más detalle técnico sobre este módulo.
+
+Saludos!
 ">
-<meta property="og:url" content="http://localhost:4000/talks/CI-CD/">
+<meta property="og:url" content="http://localhost:4000/python/Asynchronous-Python/">
 <meta property="og:site_name" content="Agile Data Scientist">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/talks/CI-CD/">
+<link rel="canonical" href="http://localhost:4000/python/Asynchronous-Python/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Agile Data Scientist Feed">
 
 
@@ -114,7 +135,10 @@
 					    <li><a href="http://localhost:4000/about/" ><i class="fa fa-info-circle"></i>&nbsp;&nbsp;About Me</a></li>
 					  
 					    
-					    <li><a href="http://localhost:4000/posts/" ><i class="fa fa-pencil"></i>&nbsp;&nbsp;My Blog</a></li>
+					    <li><a href="http://localhost:4000/posts/" ><i class="fa fa-pencil"></i>&nbsp;&nbsp;All Posts</a></li>
+					  
+					    
+					    <li><a href="http://localhost:4000/categories/" ><i class="fa fa-folder-o"></i>&nbsp;&nbsp;Categories</a></li>
 					  
 					    
 					    <li><a href="http://yohabloidiomas.wordpress.com" target="_blank"><i class="fa fa-language"></i>&nbsp;&nbsp;YoHabloIdiomas</a></li>
@@ -160,34 +184,34 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="http://localhost:4000/talks/CI-CD/" rel="bookmark" title="It’s Not Continuous Delivery If You Can’t Deploy Right Now">It’s Not Continuous Delivery If You Can’t Deploy Right Now</a></h1>
+        <h1><a href="http://localhost:4000/python/Asynchronous-Python/" rel="bookmark" title="Asynchronous Python for the Complete Beginner">Asynchronous Python for the Complete Beginner</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Después de pensarlo por un tiempo, he decidido que tener un blog personal tiene sentido para mí si me sirve para el propósito para el cual lo he creado: no solamente para dedicarle un rato a configurarlo, crearlo y alojarlo en github, sino para registrarme qué actividades ocupan mi tiempo libre dedicado a autoformación en temas de Desarrollo Web y/o Data Science.</p>
-
-<p>Es por ello que voy a intentar coger la rutina de ver una charla técnica, de mediana duración (normalmente &lt; 1 h), al día. Comienzo hoy con esta de <a href="https://kenmugrage.com/"><strong>Ken Mugrage</strong></a> que trata sobre <em>Continuous Delivery</em> (entrega continua) y <em>Continuous Deployment</em> (para tener una clara explicación de la diferencia entre ambos términos, es buena idea <a href="https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff">leer esto</a>).</p>
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/po712VIZZ7M" frameborder="0" allowfullscreen="">&nbsp;</iframe>
-
-<p>Veamos si pasados unos días continúo con el “experimento”. En cualquier caso, eso que llevo ganado ;)</p>
-
-<p>Saludos!</p>
+      <p>Continuando con el “experimento” de ayer, acabo de ver esta charla de la <a href="https://us.pycon.org/2017/about/">PyCon 2017</a> sobre programación asíncrona en Python, por <a href="https://blog.miguelgrinberg.com/"><strong>Miguel Grinberg</strong></a>. Miguel es el autor de un <a href="https://www.amazon.es/Flask-Web-Development-Developing-Applications/dp/1449372627/">conocido libro</a> de O’Reilly sobre el microframework <a href="http://flask.pocoo.org/">Flask</a>.
+<br /></p>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/iG6fr81xHKA" frameborder="0" allowfullscreen="">&nbsp;</iframe>
+<p><br />
+La charla no es demasiado larga y va a un nivel introductorio, pero está bien para el que no está familiarizado con el <em>asynchronous Python</em>. A partir de aquí, hay mucho camino que recorrer si uno está interesado en estos temas. En mi caso, para profundizar más adelante, no de inmediato.
+<br /><br />
+Ver <a href="https://docs.python.org/3/library/asyncio.html">asyncio</a> para más detalle técnico sobre este módulo.
+<br /><br />
+Saludos!</p>
 
 
       <p>Share this:&nbsp;
-<a href="https://twitter.com/share?text=It’s Not Continuous Delivery If You Can’t Deploy Right Now&url=&via=estraviz" title="Share on Twitter" target="_blank">
+<a href="https://twitter.com/share?text=Asynchronous Python for the Complete Beginner&url=&via=estraviz" title="Share on Twitter" target="_blank">
 	<i class="fa fa-twitter fa-twitter-share fa-lg"></i>
 </a>&nbsp;
-<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/talks/CI-CD/" title="Share on LinkedIn" target="_blank">
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/python/Asynchronous-Python/" title="Share on LinkedIn" target="_blank">
 	<i class="fa fa-linkedin fa-linkedin-share fa-lg"></i>
 </a>&nbsp;
 <!--
-<a href="https://plus.google.com/share?url=http://localhost:4000/talks/CI-CD/" title="Share on Google+" target="_blank">
+<a href="https://plus.google.com/share?url=http://localhost:4000/python/Asynchronous-Python/" title="Share on Google+" target="_blank">
 	<i class="fa fa-google-plus fa-google-plus-share fa-lg"></i>
 </a>&nbsp;
 -->
-<a href="mailto:?subject=It’s Not Continuous Delivery If You Can’t Deploy Right Now&amp;body=Check out this site http://localhost:4000/talks/CI-CD/" title="Share by e-mail">
+<a href="mailto:?subject=Asynchronous Python for the Complete Beginner&amp;body=Check out this site http://localhost:4000/python/Asynchronous-Python/" title="Share by e-mail">
 	<i class="fa fa-envelope fa-envelope-share fa-lg"></i>
 </a>&nbsp;
 </p>
@@ -223,7 +247,7 @@
 
 
         </div>
-        <p class="byline"><strong>It’s Not Continuous Delivery If You Can’t Deploy Right Now</strong> was published on <time datetime="2017-07-04T00:00:00+02:00">July 04, 2017</time>.</p>
+        <p class="byline"><strong>Asynchronous Python for the Complete Beginner</strong> was published on <time datetime="2017-07-05T00:00:00+02:00">July 05, 2017</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -243,7 +267,7 @@
   <footer>
     
 <hr />
-<span>&copy; 2017 <strong><a href="http://linkedin.com/in/javierestraviz" target="_blank" class="footname">Javier Estraviz</a></strong>. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+<div style="text-align:center;">&copy; 2017 <strong><a href="http://linkedin.com/in/javierestraviz" target="_blank" class="footname">Javier Estraviz</a></strong>. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</div>
 
   </footer>
 </div><!-- /.footer-wrap -->

@@ -4,9 +4,13 @@
   url: /about/
   icon: fa-info-circle
 
-- title: My Blog
+- title: All Posts
   url: /posts/
   icon: fa-pencil
+
+- title: Categories
+  url: /categories/
+  icon: fa-folder-o
 
 - title: YoHabloIdiomas
   url: http://yohabloidiomas.wordpress.com

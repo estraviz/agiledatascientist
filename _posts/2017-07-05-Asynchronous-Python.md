@@ -2,8 +2,8 @@
 layout: post
 title: "Asynchronous Python for the Complete Beginner"
 description: "Talk introductoria sobre la programación asíncrona en Python"
-category: Talks
-tags: [Python, asyncio, PyCon, Flask]
+category: Python
+tags: [Talks, Python, asyncio, PyCon, Flask]
 comments: true
 ---
 

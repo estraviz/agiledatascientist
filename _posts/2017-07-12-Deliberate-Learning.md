@@ -2,8 +2,8 @@
 layout: post
 title: "Deliberate Learning"
 description: "Acerca de dojos, katas, koans y aprendizaje"
-category: Talks
-tags: [learning, dojos, katas, koans]
+category: Software Development
+tags: [Talks, Learning, Dojos, Katas, Koans]
 comments: true
 ---
 
