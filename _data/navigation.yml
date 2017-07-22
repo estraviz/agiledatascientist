@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: About Me
+- title: About
   url: /about/
   icon: fa-info-circle
 
-- title: All Posts
+- title: Blog
   url: /posts/
   icon: fa-pencil
 
@@ -12,7 +12,11 @@
   url: /categories/
   icon: fa-folder-o
 
-- title: Street Photo
+- title: Code
+  url: http://github.com/estraviz
+  icon: fa-code-fork
+
+- title: Photo
   url: http://javier.estraviz.photography
   icon: fa-camera-retro
   

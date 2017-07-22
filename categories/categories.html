@@ -21,11 +21,10 @@ title: Categories
     <h3 class="category-head"><a name="{{ category_name | slugize }}">{{ category_name }}</a></h3>
 
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <ul>
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">· {{ post.title }} <span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span></a>
-      </ul>
-    </article>
+      <article class="archive-item">
+        · <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <!--<span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span>--><small><i class="highlight">({{ post.date | date: "%B %d, %Y" }})</small></i>
+      </article>
+      <br />
     {% endfor %}
   </div>
 {% endfor %}
