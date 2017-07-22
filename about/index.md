@@ -46,6 +46,13 @@ Otros idiomas que he estudiado en el pasado, sin titulación:
 
 <p></p>
 
+Contact
+=======
+
+You can contact me easily, just by sending an <a href="mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[AgileDataScientist]"><i class="fa fa-envelope fa-lg"></i></a> or a DM on <a href="http://twitter.com/estraviz" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>.
+
+<p></p>
+
 About This Site
 ===============
 This site is powered by [Jekyll](http://jekyllrb.com/) using the [Minimal Mistakes](http://mademistakes.com/minimal-mistakes/) theme. All blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

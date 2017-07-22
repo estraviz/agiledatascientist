@@ -31,8 +31,8 @@ kramdown:
 owner:
   name: Javier Estraviz
   avatar: bio-photo-sf.png
-  bio: "My interests: Data Science, Python, R, Agile/Scrum, Software Craftsmanship, High Energy Physics, Foreign Languages, Chess, Street Photography..."
-  email: javier.estraviz@gmail.com
+  bio: "Code, Data Science, Scrum"
+  email: javier.estraviz+agiledatascientist@gmail.com
   disqus-shortname: agiledatascientist
   twitter: estraviz
   facebook: #username
@@ -49,9 +49,12 @@ owner:
   freecodecamp: estraviz
   stackoverflow: #712603
   linkedin: javierestraviz
+  goodreads: #estraviz
+  langblog: yohabloidiomas
+  physblog: darkphysicist
   instagram: #username
   lastfm: #username
-  tumblr: #username
+  tumblr: #rockalterno
   pinterest: #username
   foursquare: #username
   steam: #username

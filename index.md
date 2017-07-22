@@ -7,4 +7,5 @@ image:
   credit: © Javier Estraviz, 2011
 ---
 
-Website and blog of <strong><a href="http://linkedin.com/in/{{ author.linkedin }}" target="_blank" class="footname">{{ site.owner.name }}</a></strong>, a Scrum Master at [StubHub](http://stubhub.com/). For more about me, <a href="/about" id="seehere">see here</a>.
+Website and blog of <strong><a href="http://linkedin.com/in/{{ author.linkedin }}" target="_blank" class="active">{{ site.owner.name }}</a></strong>, a Scrum Master at [StubHub](http://stubhub.com/).
+<br /><br />

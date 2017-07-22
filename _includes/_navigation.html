@@ -1,18 +1,28 @@
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="{{ site.url }}">{{ site.title }}</a>
+		<a href="{{ site.url }}"> <span class="active">{{ site.title }}</span></a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
 		    <ul>
 		        {% for link in site.data.navigation %}
-					    {% if link.url contains 'http' %}
-					        {% assign domain = '' %}
-					        {% else %}
-					        {% assign domain = site.url %}
-					    {% endif %}
-					    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}><i class="fa {{ link.icon }}"></i>&nbsp;&nbsp;{{ link.title }}</a></li>
-					  {% endfor %}
+					{% if link.url contains 'http' %}
+						{% assign domain = '' %}
+					{% else %}
+					    {% assign domain = site.url %}
+					{% endif %}
+					<li>
+						<a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
+						{% if link.url == page.url %}
+							<span class="highlight active">
+						{% else %}
+							<span class="highlight">
+						{% endif %}
+								&nbsp;<i class="fa {{ link.icon }}"></i>&nbsp;{{ link.title }}&nbsp;
+							</span>
+						</a>
+					</li>
+				{% endfor %}
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->

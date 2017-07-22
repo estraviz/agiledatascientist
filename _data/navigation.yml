@@ -12,10 +12,7 @@
   url: /categories/
   icon: fa-folder-o
 
-- title: YoHabloIdiomas
-  url: http://yohabloidiomas.wordpress.com
-  icon: fa-language
-
 - title: Street Photo
   url: http://javier.estraviz.photography
   icon: fa-camera-retro
+  
