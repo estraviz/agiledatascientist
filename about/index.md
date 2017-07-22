@@ -48,7 +48,7 @@ Other languages that I've studied on my own in the past:
 
 Contact
 =======
-You can contact me easily, just by sending an <a href="mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[AgileDataScientist]"><i class="fa fa-envelope fa-lg"></i></a> or a DM on <a href="http://twitter.com/estraviz" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>.
+You can contact me easily, just by sending me an <a href="mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[AgileDataScientist]"><i class="fa fa-envelope fa-envelope-share fa-lg"></i></a>, through my <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Share on LinkedIn" target="_blank"><i class="fa fa-linkedin fa-linkedin-share fa-lg"></i></a> account or via DM on <a href="http://twitter.com/estraviz" target="_blank"><i class="fa fa-twitter fa-twitter-share fa-lg"></i></a>. *Thanks!*
 
 <p></p>
 
