@@ -41,12 +41,14 @@
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a>
       {% endif %}
+
           <br />
-          <span style="vertical-align: top; font-size: medium;">
-          {% for tag in page.tags %}
-            <small><i class="fa fa-tag"> {{ tag }}</i>&nbsp;&nbsp;</a></small>
-          {% endfor %}
+          <span class="medium-size">
+            {% for tag in page.tags %}
+              <small><i class="fa fa-tag"> {{ tag }}</i>&nbsp;&nbsp;</a></small>
+            {% endfor %}
           </span>
+          
         </h1>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">

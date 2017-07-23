@@ -6,23 +6,26 @@ title: Categories
 
 <div id="archives">
 
-<h4>
+<small>
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <a href="#{{ category_name }}"><i class="fa fa-folder-o"> {{ category_name }}</i>&nbsp;&nbsp;</a>
+    <a href="#{{ category_name }}"><i class="fa fa-folder-o small-size"> {{ category_name }}</i>&nbsp;&nbsp;</a>
 {% endfor %}
+</small>
+
 <hr />
-</h4>
 
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
-    <h3 class="category-head"><a name="{{ category_name | slugize }}">{{ category_name }}</a></h3>
+    <h3 class="category-head">{{ category_name }}
+    <a name="{{ category_name | slugize }}" href="#archives"><i class="small-size active">&#8673;</i></a></h3>
 
     {% for post in site.categories[category_name] %}
       <article class="archive-item">
-        · <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <!--<span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span>--><small><i class="highlight">({{ post.date | date: "%B %d, %Y" }})</small></i>
+        · <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> 
+        <span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span>
       </article>
       <br />
     {% endfor %}
