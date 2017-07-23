@@ -6,8 +6,10 @@ title: Categories
 
 <div id="archives">
 
+{% assign sortedcats = site.categories | sort %}
+
 <small>
-{% for category in site.categories %}
+{% for category in sortedcats %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <a href="#{{ category_name }}"><i class="fa fa-folder-o small-size"> {{ category_name }}</i>&nbsp;&nbsp;</a>
 {% endfor %}
@@ -15,12 +17,13 @@ title: Categories
 
 <hr />
 
-{% for category in site.categories %}
+{% for category in sortedcats %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <h3 class="category-head">{{ category_name }}
       <a name="{{ category_name | slugize }}" href="#archives"><i class="small-size active">&#8673;</i></a>
+
     </h3>
 
     {% for post in site.categories[category_name] %}

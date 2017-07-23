@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World!"
 description: "¿De qué va esto? / What's this all about?"
-category: Personal
+category: personal
 tags: Personal
 comments: true
 ---
