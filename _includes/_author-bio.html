@@ -24,12 +24,15 @@
 
 {% if author.freecodecamp %}<a href="https://www.freecodecamp.org/{{ author.freecodecamp }}" class="author-social" target="_blank"><i class="fa fa-free-code-camp"></i>freeCodeCamp</a>{% endif %}
 
-<h4>Old blogs o'mine</h4>
+<br />
+<span class="author-social">Old blogs of mine:</span>
+
+{% if author.langblog %}<a href="http://{{ author.langblog }}.wordpress.com" class="author-social" target="_blank"><i class="fa fa-language"></i> YoHabloIdiomas</a>{% endif %}
+
+{% if author.langblog2 %}<a href="http://{{ author.langblog2 }}.wordpress.com" class="author-social" target="_blank"><i class="fa fa-wordpress"></i> YoHablarAleman</a>{% endif %}
+
+{% if author.physblog %}<a href="http://{{ author.physblog }}.wordpress.com" class="author-social" target="_blank"><i class="fa fa-flask"></i> DarkPhysicist</a>{% endif %}
 
 {% if author.goodreads %}<a href="https://www.goodreads.com/{{ author.goodreads }}" class="author-social" target="_blank"><i class="fa fa-book"></i> Goodreads</a>{% endif %}
-
-{% if author.langblog %}<a href="http://{{ author.langblog }}.wordpress.com" class="author-social" target="_blank"><i class="fa fa-language"></i> Languages</a>{% endif %}
-
-{% if author.physblog %}<a href="http://{{ author.physblog }}.wordpress.com" class="author-social" target="_blank"><i class="fa fa-flask"></i> Physics</a>{% endif %}
 
 {% if author.tumblr %}<a href="http://{{ author.tumblr }}.tumblr.com" class="author-social" target="_blank"><i class="fa fa-volume-up"></i> Music</a>{% endif %}
