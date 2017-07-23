@@ -20,15 +20,19 @@ title: Categories
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <h3 class="category-head">{{ category_name }}
-    <a name="{{ category_name | slugize }}" href="#archives"><i class="small-size active">&#8673;</i></a></h3>
+      <a name="{{ category_name | slugize }}" href="#archives"><i class="small-size active">&#8673;</i></a>
+    </h3>
 
     {% for post in site.categories[category_name] %}
+      
       <article class="archive-item">
-        · <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> 
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> 
         <span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span>
       </article>
-      <br />
+
     {% endfor %}
+
+    <br />
   </div>
 {% endfor %}
 
