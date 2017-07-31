@@ -1,7 +1,7 @@
 ---
 layout: page
+permalink: /about/
 title: About...
-tags: [about, CV]
 comments: false
 ---
 

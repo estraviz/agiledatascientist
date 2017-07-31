@@ -3,7 +3,7 @@ layout: post
 title: "How to become a Data Scientist in 6 months"
 description: "Una interesante experiencia personal de reorientación profesional"
 category: Data Science
-tags: [Talks, PyData, Personal Career]
+tags: [career, PyData, talks]
 comments: true
 ---
 

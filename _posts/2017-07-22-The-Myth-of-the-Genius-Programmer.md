@@ -3,7 +3,7 @@ layout: post
 title: "The Myth of the Genius Programmer"
 description: "Incrementemos el bus factor en nuestros proyectos"
 category: Software Development
-tags: [Talks, bus factor, Personal Career, Genius, Myths, small fish]
+tags: [bus factor, career, small fish, talks]
 comments: true
 ---
 

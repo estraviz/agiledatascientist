@@ -3,7 +3,7 @@ layout: post
 title: "SOLID Object-Oriented Design"
 description: "Reflexionando sobre los principios SOLID"
 category: Software Design
-tags: [Talks, SOLID, OOP, Ruby]
+tags: [OOP, Ruby, talks]
 comments: true
 ---
 
