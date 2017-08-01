@@ -36,21 +36,19 @@
   </div>
   <article class="post">
     <div class="headline-wrap">
-      {% if page.link %}
-        <h1><a href="{{ page.link }}">{{ page.title }}</a>
-      {% else %}
-        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a>
-      {% endif %}
+        <h1>{{ page.title }}
 
-          <br />
-          <span class="medium-size">
-            {% for tag in page.tags %}
-              <small><i class="fa fa-tag"> {{ tag }}</i>&nbsp;&nbsp;</a></small>
-            {% endfor %}
-          </span>
-          
+            <br />
+            <span class="small-size">
+              <span class="highlight active">&nbsp;<i class="fa fa-folder-open-o"></i>&nbsp;{{ page.category }}&nbsp;</span>
+              {% for tag in page.tags %}
+                &nbsp;<i class="fa fa-tag"></i>&nbsp;{{ tag }}&nbsp;
+              {% endfor %}
+            </span>
+    
         </h1>
     </div><!--/ .headline-wrap -->
+
     <div class="article-wrap">
       {{ content }}
 

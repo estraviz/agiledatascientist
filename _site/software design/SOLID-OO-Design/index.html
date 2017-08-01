@@ -9,7 +9,7 @@
 <meta name="description" content="He estado comentando con my colleague @xala3pa que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas inspirational para mí.
 
 ">
-<meta name="keywords" content="OOP, Ruby, talks">
+<meta name="keywords" content="OOP, Ruby, Sandi Metz, SOLID">
 
 
 <!-- Twitter Cards -->
@@ -116,7 +116,7 @@
 						
 							<span class="highlight">
 						
-								&nbsp;<i class="fa fa-info-circle"></i>&nbsp;About&nbsp;
+								&nbsp;<i class="fa fa-info-circle"></i>&nbsp;About
 							</span>
 						</a>
 					</li>
@@ -127,7 +127,7 @@
 						
 							<span class="highlight">
 						
-								&nbsp;<i class="fa fa-pencil"></i>&nbsp;Posts&nbsp;
+								&nbsp;<i class="fa fa-pencil"></i>&nbsp;Posts
 							</span>
 						</a>
 					</li>
@@ -138,7 +138,7 @@
 						
 							<span class="highlight">
 						
-								&nbsp;<i class="fa fa-folder-o"></i>&nbsp;Categories&nbsp;
+								&nbsp;<i class="fa fa-folder-o"></i>&nbsp;Categories
 							</span>
 						</a>
 					</li>
@@ -149,7 +149,7 @@
 						
 							<span class="highlight">
 						
-								&nbsp;<i class="fa fa-code-fork"></i>&nbsp;Code&nbsp;
+								&nbsp;<i class="fa fa-code-fork"></i>&nbsp;Code
 							</span>
 						</a>
 					</li>
@@ -169,6 +169,7 @@
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->
+
 
 
 
@@ -197,42 +198,33 @@
 <a href="https://www.freecodecamp.org/estraviz" class="author-social" target="_blank"><i class="fa fa-free-code-camp"></i>freeCodeCamp</a>
 
 <br />
-<span class="author-social">Old blogs of mine:</span>
-
-<a href="http://yohabloidiomas.wordpress.com" class="author-social" target="_blank"><i class="fa fa-language"></i> YoHabloIdiomas</a>
-
-<a href="http://yohablaraleman.wordpress.com" class="author-social" target="_blank"><i class="fa fa-wordpress"></i> YoHablarAleman</a>
-
-<a href="http://darkphysicist.wordpress.com" class="author-social" target="_blank"><i class="fa fa-flask"></i> DarkPhysicist</a>
-
-
-
-
-
+<a href="https://github.com/estraviz/estraviz.github.io/issues/new" class="author-social" target="_blank"><i class="fa fa-commenting-o"></i> Suggest a topic</a>
   </div>
   <article class="post">
     <div class="headline-wrap">
-      
-        <h1><a href="http://localhost:4000/software%20design/SOLID-OO-Design/" rel="bookmark" title="SOLID Object-Oriented Design">SOLID Object-Oriented Design</a>
-      
+        <h1>SOLID Object-Oriented Design
 
-          <br />
-          <span class="medium-size">
-            
-              <small><i class="fa fa-tag"> OOP</i>&nbsp;&nbsp;</a></small>
-            
-              <small><i class="fa fa-tag"> Ruby</i>&nbsp;&nbsp;</a></small>
-            
-              <small><i class="fa fa-tag"> talks</i>&nbsp;&nbsp;</a></small>
-            
-          </span>
-          
+            <br />
+            <span class="small-size">
+              <span class="highlight active">&nbsp;<i class="fa fa-folder-open-o"></i>&nbsp;Software Design&nbsp;</span>
+              
+                &nbsp;<i class="fa fa-tag"></i>&nbsp;OOP&nbsp;
+              
+                &nbsp;<i class="fa fa-tag"></i>&nbsp;Ruby&nbsp;
+              
+                &nbsp;<i class="fa fa-tag"></i>&nbsp;Sandi Metz&nbsp;
+              
+                &nbsp;<i class="fa fa-tag"></i>&nbsp;SOLID&nbsp;
+              
+            </span>
+    
         </h1>
     </div><!--/ .headline-wrap -->
-    <div class="article-wrap">
-      <p>He estado comentando con <em>my colleague</em> <a href="https://twitter.com/xala3pa"><strong>@xala3pa</strong></a> que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas <em>inspirational</em> para mí.</p>
 
-<p>En esta línea va la charla de hoy, de <a href="https://www.sandimetz.com/"><strong>Sandi Metz</strong></a>, autora del libro <a href="https://www.sandimetz.com/99bottles">99 Bottles of OOP</a> y recomendada por <strong>@xala3pa</strong>. <strong>Sandi</strong> comienza hablando de la rigidez + fragilidad + inmovilizo + viscosidad de nuestras aplicaciones. Es muy posible que una aplicación que desarrollemos hoy corra el riesgo de “romperse” mañana con cualquier pequeño cambio, con cualesquiera dependencias existentes entre nuestros componentes. Por ello, nos habla del diseño orientado a objetos y los principios <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">SOLID</a>. Como el <em>goal</em> de este blog pretende ayudar(me) (a mí en primera instancia, y al que/la que le sirva de inspiración), reproduzco aquí unos breves apuntes sobre los conceptos que forman el acrónimo SOLID, tal y como los he copiado en mi <a href="https://www.evernote.com/">Evernote</a> durante la visualización del vídeo:</p>
+    <div class="article-wrap">
+      <p>He estado comentando con <em>my colleague</em> <a href="https://twitter.com/xala3pa" target="_blank"><strong>@xala3pa</strong></a> que iba a intentar ver una charla más o menos técnica al día, normalmente relacionada con el desarrollo de software y/o temática de Data Science. Seguramente no serán charlas de extrema profundidad, que me requieran bucear en complejidades del código, dado que el rato que tendré para esto a última hora del día, cuando uno está ya está un cansado. Pero sí que creo que puede ser un momento aprovechable para escuchar a personas e ideas <em>inspirational</em> para mí.</p>
+
+<p>En esta línea va la charla de hoy, de <a href="https://www.sandimetz.com/" target="_blank"><strong>Sandi Metz</strong></a>, autora del libro <a href="https://www.sandimetz.com/99bottles" target="_blank">99 Bottles of OOP</a> y recomendada por <strong>@xala3pa</strong>. <strong>Sandi</strong> comienza hablando de la rigidez + fragilidad + inmovilizo + viscosidad de nuestras aplicaciones. Es muy posible que una aplicación que desarrollemos hoy corra el riesgo de “romperse” mañana con cualquier pequeño cambio, con cualesquiera dependencias existentes entre nuestros componentes. Por ello, nos habla del diseño orientado a objetos y los principios <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod" target="_blank">SOLID</a>. Como el <em>goal</em> de este blog pretende ayudar(me) (a mí en primera instancia, y al que/la que le sirva de inspiración), reproduzco aquí unos breves apuntes sobre los conceptos que forman el acrónimo SOLID, tal y como los he copiado en mi <a href="https://www.evernote.com/" target="_blank">Evernote</a> durante la visualización del vídeo:</p>
 
 <ul>
   <li><strong>S</strong> - <em>Single responsibility</em> - only one reason for a class to change.</li>
@@ -250,10 +242,8 @@
 <p></p>
 <p>Por último, me quedo con esta frase de <strong>Sandi</strong>:</p>
 
-<blockquote style="text-align: center;">
-<br />
+<blockquote>
 If your project succeeds it will continue to cost you money.
-<br /><br />
 </blockquote>
 
 <p>Saludos!</p>
@@ -304,18 +294,7 @@ If your project succeeds it will continue to cost you money.
 <a href="https://www.freecodecamp.org/estraviz" class="author-social" target="_blank"><i class="fa fa-free-code-camp"></i>freeCodeCamp</a>
 
 <br />
-<span class="author-social">Old blogs of mine:</span>
-
-<a href="http://yohabloidiomas.wordpress.com" class="author-social" target="_blank"><i class="fa fa-language"></i> YoHabloIdiomas</a>
-
-<a href="http://yohablaraleman.wordpress.com" class="author-social" target="_blank"><i class="fa fa-wordpress"></i> YoHablarAleman</a>
-
-<a href="http://darkphysicist.wordpress.com" class="author-social" target="_blank"><i class="fa fa-flask"></i> DarkPhysicist</a>
-
-
-
-
-
+<a href="https://github.com/estraviz/estraviz.github.io/issues/new" class="author-social" target="_blank"><i class="fa fa-commenting-o"></i> Suggest a topic</a>
         </div>
         <p class="byline"><strong>SOLID Object-Oriented Design</strong> was published on <time datetime="2017-07-11T00:00:00+02:00">July 11, 2017</time>.</p>
       </footer>
