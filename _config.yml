@@ -5,8 +5,8 @@ locale:           es_ES
 url:              http://agiledatascientist.com
 # url:              http://localhost:4000
 
-name: Agile Data Scientist :)
-description: Data Science, Software Craftsmanship, etc.
+name: AgileDataScientist.com
+description: Code, Data Science, Scrum
 
 # Jekyll configuration
 
@@ -29,37 +29,39 @@ kramdown:
 
 # Site owner
 owner:
-  name: Javier Estraviz
   avatar: bio-photo-sf.png
+  bing-verify:   
   bio: "Code, Data Science, Scrum"
-  email: javier.estraviz+agiledatascientist@gmail.com
+  codewars: #estraviz 
+  datacamp: estraviz  
   disqus-shortname: agiledatascientist
-  twitter: estraviz
+  dribbble: #username    
+  email: javier.estraviz+agiledatascientist@gmail.com  
   facebook: #username
-  google:
-    plus: #username
-    analytics: 'UA-99829689-1'
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+  flickr: estravizhausen
+  foursquare: #username  
+  freecodecamp: estraviz  
   github: estraviz
-  datacamp: estraviz
-  codewars: #estraviz
-  freecodecamp: estraviz
-  stackoverflow: #712603
-  linkedin: javierestraviz
-  goodreads: #estraviz
+  goodreads: #estraviz  
+  google:
+    ad-client: 
+    ad-slot:     
+    analytics: 'UA-99829689-1'    
+    plus: #JavierEstraviz
+    verify: 
+  instagram: fotosterona  
   langblog: yohabloidiomas
   langblog2: yohablaraleman
-  physblog: darkphysicist
-  instagram: #username
-  lastfm: #username
-  tumblr: #rockalterno
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
+  lastfm: #username  
+  linkedin: javierestraviz  
+  name: Javier Estraviz    
+  photography: javier
+  physblog: darkphysicist  
+  pinterest: #username    
+  stackoverflow: #712603  
+  steam: #username  
+  tumblr: #rockalterno  
+  twitter: estraviz  
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

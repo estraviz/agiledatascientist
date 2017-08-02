@@ -14,9 +14,9 @@
 					<li>
 						<a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
 						{% if link.url == page.url %}
-							<span class="highlight active">
+							<span class="active">
 						{% else %}
-							<span class="highlight">
+							<span class="">
 						{% endif %}
 								&nbsp;<i class="fa {{ link.icon }}"></i>&nbsp;{{ link.title }}
 							</span>

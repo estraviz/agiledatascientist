@@ -285,3 +285,26 @@ a:hover, .footname {
 .glossary, .glossary:hover {
     text-decoration: none; border-bottom: 1px dotted;
 }
+
+//
+.highlightgrey {
+	background-color: #efefef;
+	font-family: $code-font;
+	@include font(12);
+	color: #333332;
+	margin-bottom: 1.5em;
+	@include rounded(4px);
+	pre {
+		position: relative;
+		margin: 0;
+		padding: 1em;
+	}
+}
+
+.categoryblue {
+    background-color:$mypreferredlinkcolor;
+}
+
+.nowrapping {
+    white-space: nowrap;
+}

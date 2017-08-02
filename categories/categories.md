@@ -10,8 +10,10 @@ comments: false
 {% assign sortedcats = site.categories | sort %}
 
 {% for category in sortedcats %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <a href="#{{ category_name }}" class="highlight">&nbsp;{{ category_name }}&nbsp;</a>&nbsp;
+  <span class="nowrapping">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <a href="#{{ category_name }}" class="highlight categoryblue" style="color:white;">&nbsp;{{ category_name }}&nbsp;<span style="color:lime;">({{ category | last | size }})</span>&nbsp;</a>&nbsp;
+  </span>
 {% endfor %}
 
 <hr />
