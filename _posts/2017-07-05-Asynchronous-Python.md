@@ -2,7 +2,7 @@
 layout: post
 title: "Asynchronous Python for the Complete Beginner"
 description: "Talk introductoria sobre la programación asíncrona en Python"
-category: Software Development
+category: Backend Development
 tags: [asyncio, Flask, Miguel Grinberg, PyCon, Python]
 comments: true
 ---
