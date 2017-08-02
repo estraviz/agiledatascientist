@@ -12,7 +12,7 @@ comments: false
 {% for category in sortedcats %}
   <span class="nowrapping">
       {% capture category_name %}{{ category | first }}{% endcapture %}
-      <a href="#{{ category_name }}" class="highlight categoryblue" style="color:white;">&nbsp;{{ category_name }}&nbsp;<span style="color:lime;">({{ category | last | size }})</span>&nbsp;</a>&nbsp;
+      <a href="#{{ category_name }}" class="highlight categoryblue" style="color:white;">&nbsp;{{ category_name }}&nbsp;<span class="categorycountcolor">({{ category | last | size }})</span>&nbsp;</a>&nbsp;
   </span>
 {% endfor %}
 
@@ -27,7 +27,7 @@ comments: false
 
     {% for post in site.categories[category_name] %}
 
-      <h4 style="display:inline;">
+      <h4 class="inlinedisplay">
         <article class="archive-item">
           <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> 
           <span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span>

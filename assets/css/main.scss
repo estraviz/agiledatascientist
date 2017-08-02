@@ -302,9 +302,25 @@ a:hover, .footname {
 }
 
 .categoryblue {
-    background-color:$mypreferredlinkcolor;
+    background-color: $mypreferredlinkcolor;
 }
 
 .nowrapping {
     white-space: nowrap;
+}
+
+.underlinenav {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    -moz-text-decoration-color: $mypreferredlinkcolor;
+    text-decoration-color: $mypreferredlinkcolor;
+    text-underline-position: under;
+}
+
+.inlinedisplay {
+    display: inline;
+}
+
+.categorycountcolor {
+    color: lime;
 }

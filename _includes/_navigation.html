@@ -14,12 +14,11 @@
 					<li>
 						<a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
 						{% if link.url == page.url %}
-							<span class="active">
+							<span id="homepage"><i class="fa {{ link.icon }}"></i>&nbsp;<span class="underlinenav">{{ link.title }}</span></span>
 						{% else %}
-							<span class="">
+							<span class=""><i class="fa {{ link.icon }}"></i>&nbsp;{{ link.title }}</span>
 						{% endif %}
-								&nbsp;<i class="fa {{ link.icon }}"></i>&nbsp;{{ link.title }}
-							</span>
+							
 						</a>
 					</li>
 				{% endfor %}
