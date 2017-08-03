@@ -17,6 +17,11 @@ Aquí el vídeo:
 <p></p>
 A continuación, las slides de la charla: 
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/ge0GaQBgSx6p8S" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TetianaIvanova2/how-to-become-a-data-scientist-in-6-months" title="How to become a data scientist in 6 months" target="_blank">How to become a data scientist in 6 months</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/TetianaIvanova2">Tetiana Ivanova</a></strong> </div> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/ge0GaQBgSx6p8S" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 
+<div style="margin-bottom:5px"> 
+	<strong><a href="//www.slideshare.net/TetianaIvanova2/how-to-become-a-data-scientist-in-6-months" title="How to become a data scientist in 6 months" target="_blank">How to become a data scientist in 6 months</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/TetianaIvanova2">Tetiana Ivanova</a></strong> 
+</div> 
+
+<br />
 Saludos!

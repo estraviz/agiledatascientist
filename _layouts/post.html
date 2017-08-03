@@ -31,56 +31,90 @@
 {% endif %}
 
 <div id="main" role="main">
+
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
+
   <article class="post">
     <div class="headline-wrap">
         <h1>{{ page.title }}
 
             <br />
             <span class="small-size">
-              <span class="highlight active categoryblue" style="color:white;">&nbsp;<i class="fa fa-folder-open-o"></i>&nbsp;{{ page.category }}&nbsp;</span>
-              {% for tag in page.tags %}
-                &nbsp;<i class="fa fa-tag"></i>&nbsp;{{ tag }}&nbsp;
-              {% endfor %}
+
+              <span class="readingtimecolor normalweight">
+                <i class="fa fa-calendar"></i>&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>&nbsp;
+
+              {% include _reading-time.html %}
+
+              </span>
+              &nbsp;
+              <span class="active" style="">
+                <span class="nowrapping"><i class="fa fa-folder-open-o"></i>&nbsp;{{ page.category }}&nbsp;</span>
+              </span>
+              <br />
+              <span class="normalweight">
+                {% for tag in page.tags %}
+                  <span class="nowrapping"><i class="fa fa-tag"></i>&nbsp;{{ tag }}&nbsp;</span>
+                {% endfor %}
+              </span>
+
             </span>
     
         </h1>
     </div><!--/ .headline-wrap -->
 
+    <hr />
+
     <div class="article-wrap">
+      
       {{ content }}
-
-      {% include _share-page.html %}
-
+      
       <hr />
+
       <footer role="contentinfo">
+
         <div class="article-author-bottom">
           {% include _author-bio.html %}
         </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-      </footer>
-    </div><!-- /.article-wrap -->
-  {% if site.owner.disqus-shortname and page.comments == true %}
-    <section id="disqus_thread"></section><!-- /#disqus_thread -->
-  {% endif %}
-  </article>
-</div><!-- /#main -->
 
+        {% include _share-page.html %}
+
+      </footer>
+
+    </div><!-- /.article-wrap -->
+
+    {% if site.owner.disqus-shortname and page.comments == true %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+
+  </article>
+
+</div><!-- /#main -->
 <div class="footer-wrap">
+
   <div class="related-articles">
-  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small></h4>
+    <h4>
+      You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small>
+    </h4>
+
     <ul>
-    {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endfor %}
+      {% for post in site.related_posts limit:3 %}
+        <li>
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
     </ul>
+    
     <hr />
+
   </div><!-- /.related-articles -->
+
   <footer>
     {% include _footer.html %}
   </footer>
+
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}	        
