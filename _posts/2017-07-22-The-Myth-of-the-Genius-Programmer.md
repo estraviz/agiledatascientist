@@ -3,7 +3,7 @@ layout: post
 title: "The Myth of the Genius Programmer"
 description: "Incrementemos el bus factor en nuestros proyectos"
 category: Profession and Career
-tags: [Ben Collins-Sussman, Brian Fitzpatrick, bus factor, Google I/O]
+tags: [Ben Collins-Sussman, Brian Fitzpatrick, Bus factor, Google I/O]
 comments: true
 ---
 

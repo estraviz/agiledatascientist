@@ -3,7 +3,7 @@ layout: post
 title: "Deliberate Learning"
 description: "Acerca de dojos, katas, koans y aprendizaje"
 category: Profession and Career
-tags: [Dan North, dojos, katas, koans, Zed Shaw]
+tags: [Dan North, Zed Shaw]
 comments: true
 ---
 

@@ -12,6 +12,10 @@
   url: /categories/
   icon: fa-folder-o
 
+- title: Tags
+  url: /tags/
+  icon: fa-tags
+
 - title: Code
   url: http://github.com/estraviz
   icon: fa-code-fork
