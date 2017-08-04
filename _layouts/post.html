@@ -44,7 +44,7 @@
             <span class="small-size">
 
               <span class="readingtimecolor normalweight">
-                <i class="fa fa-calendar"></i>&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>&nbsp;
+                <i class="fa fa-calendar"></i>&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>&nbsp;
 
               {% include _reading-time.html %}
 
@@ -92,24 +92,10 @@
   </article>
 
 </div><!-- /#main -->
+
 <div class="footer-wrap">
 
-  <div class="related-articles">
-    <h4>
-      You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/posts/">View all posts</a>)</small>
-    </h4>
-
-    <ul>
-      {% for post in site.related_posts limit:3 %}
-        <li>
-          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    
-    <hr />
-
-  </div><!-- /.related-articles -->
+  {% include _related-articles.html %}
 
   <footer>
     {% include _footer.html %}

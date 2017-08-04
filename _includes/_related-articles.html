@@ -1,0 +1,27 @@
+<div class="related-articles">
+	{% assign counter = '0' %}
+
+	{% for post in site.posts %}
+	  {% if counter < '4' %}
+	    {% if post.categories == page.categories and post.title != page.title %}
+
+	      {% if counter == '0' %}
+	        <h3 class="normalweight">
+	          Latest posts in <tagname class="boldweight">{{ page.categories }}</tagname>
+	        </h3>
+	        <hr />
+	      {% endif%}
+
+	      <h4 class="inlinedisplay">
+	          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">&#8227; {{ post.title }}</a> 
+	      </h4>
+
+	      <p>{{ post.description | strip_html | truncate: 500 }}</p>
+	      
+	      {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+	    {% endif %}
+	  {% else %}
+	    {% break %}
+	  {% endif %}
+	{% endfor %}
+</div><!-- /.related-articles -->
