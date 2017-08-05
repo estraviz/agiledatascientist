@@ -9,11 +9,11 @@
 {% endif %}
 
 <h3>{{ author.name }}</h3>
-<p>{{ author.bio }}</p>
-
+<p >{{ author.bio }}
 {% if author.location %}
-	<a href="https://www.google.es/maps/place/43%C2%B017'34.8%22N+3%C2%B000'03.6%22W/@43.2930039,-20.930687,4z/data=!4m5!3m4!1s0x0:0x0!8m2!3d43.293!4d-3.001?hl=en" target="_blank" class="author-social"><i class="fa fa-map-marker fa-lg"></i> {{ site.owner.location.latitude }}, {{ site.owner.location.longitude }}</a>
+	<a href="https://www.google.es/maps/place/43%C2%B017'34.8%22N+3%C2%B000'03.6%22W/@43.2930039,-20.930687,4z/data=!4m5!3m4!1s0x0:0x0!8m2!3d43.293!4d-3.001?hl=en" target="_blank" class="author-social"><small><i class="fa fa-map-marker fa-lg"></i> {{ site.owner.location.latitude }}, {{ site.owner.location.longitude }}</small></a>
 {% endif %}
+</p>
 
 {% if author.email %}<a href="mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[AgileDataScientist]" class="author-social"><i class="fa fa-envelope"></i> Email</a>{% endif %}
 
@@ -28,12 +28,13 @@
 {% if author.freecodecamp %}<a href="https://www.freecodecamp.org/{{ author.freecodecamp }}" class="author-social" target="_blank"><i class="fa fa-free-code-camp"></i>freeCodeCamp</a>{% endif %}
 
 {% if author.codewars %}<a href="https://www.codewars.com/users/{{ author.codewars }}" class="author-social" target="_blank"><i class="fa fa-laptop"></i> Codewars</a>{% endif %}
-<!--
-{% if author.photography %}<a href="http://{{ author.photography }}.estraviz.photography" class="author-social" target="_blank"><i class="fa fa-camera-retro"></i> Street Photo</a>{% endif %}
+
+<!--<a href="https://github.com/estraviz/estraviz.github.io/issues/new" class="author-social" target="_blank"><i class="fa fa-commenting-o"></i> Suggest a topic</a>-->
+
+<br />
+<h5 class="inlinedisplay">My photography sites</h5>
+{% if author.photography %}<a href="http://{{ author.photography }}.estraviz.photography" class="author-social" target="_blank"><i class="fa fa-camera-retro"></i>Street (portfolio)</a>{% endif %}
 
 {% if author.flickr %}<a href="https://flickr.com/photos/{{ author.flickr }}" class="author-social" target="_blank"><i class="fa fa-flickr"></i> Flickr</a>{% endif %}
 
 {% if author.instagram %}<a href="https://www.instagram.com/{{ author.instagram }}" class="author-social" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>{% endif %}
--->
-<br />
-<a href="https://github.com/estraviz/estraviz.github.io/issues/new" class="author-social" target="_blank"><i class="fa fa-commenting-o"></i> Suggest a topic</a>

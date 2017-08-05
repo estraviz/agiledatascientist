@@ -13,7 +13,7 @@
 	      {% endif%}
 
 	      <h4 class="inlinedisplay">
-	          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">&#8227; {{ post.title }}</a> 
+	          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> 
 	      </h4>
 
 	      <p>{{ post.description | strip_html | truncate: 500 }}</p>

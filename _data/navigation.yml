@@ -10,16 +10,8 @@
 
 - title: Categories
   url: /categories/
-  icon: fa-folder-o
+  icon: fa-folder-open
 
 - title: Tags
   url: /tags/
   icon: fa-tags
-
-- title: Code
-  url: http://github.com/estraviz
-  icon: fa-code-fork
-
-- title: Photo&nbsp;
-  url: http://javier.estraviz.photography
-  icon: fa-camera-retro

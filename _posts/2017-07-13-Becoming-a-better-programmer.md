@@ -1,33 +1,30 @@
 ---
 layout: post
 title: "Becoming a better programmer"
-description: "Un manual para personas que se preocupan por el código"
+description: "A manual for people who care about the code"
 category: Profession and Career
 tags: [Dunning-Kruger effect, Dreyfus model, Peter Goodliffe]
 comments: true
 ---
 
-Hoy voy a dejar por aquí una entrada acerca de la conferencia de 2015 de [**Peter Goodliffe**](http://www.goodliffe.net/){:target="_blank"}, que lleva por título *Becoming a Better Programmer* o cómo convertirse en un mejor programador. Algo que, a priori, debería ser el objetivo de todo desarrollador de software apasionado por su profesión (<span class="glossary"><a href="#" class="tooltip-right" data-tooltip="{{site.data.glossary.IMHO}}">IMHO</a></span>). **Peter** tiene un [libro publicado por O'Reilly](https://www.amazon.es/Becoming-Better-Programmer-Handbook-People/dp/1491905530/){:target="_blank"} en 2014, con el mismo título. 
+Today I will leave here an entry about the 2015 conference by [**Peter Goodliffe**](http://www.goodliffe.net/){:target="_blank"}, which is titled *Becoming a Better Programmer*. Something that, *a priori*, should be the goal of every software developer passionate about his profession (<span class="glossary"><a href="#" class="tooltip-right" data-tooltip="{{site.data.glossary.IMHO}}">IMHO</a></span>). **Peter** has a [book published by O'Reilly](https://www.amazon.es/Becoming-Better-Programmer-Handbook-People/dp/1491905530/){:target="_blank"} in 2014, with the same title.
 
-Esta vez, para variar, primero el vídeo y luego unos apuntes sobre el mismo:
+This time, first the video and then some notes on it:
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/85fXs6cQETQ" frameborder="0" allowfullscreen>&nbsp;</iframe>
-<p></p>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/85fXs6cQETQ" frameborder="0" allowfullscreen>&nbsp;</iframe><br />
 
-Tengo que confesar que aunque el mensaje y objetivo de la charla encajaba con lo que esperaba escuchar, tras completar su visualización no me ha entusiasmado demasiado. No obstante, resalto la idea que **Peter** se esfuerza por dejar meridianamente clara: 
+I have to confess that although the message and purpose of the talk fit with what I expected to hear, after completing the visualization I was not too enthusiastic. However, I emphasize the idea that **Peter** strives to make clear:
 
-<blockquote>
-It's all about ATTITUDE
-</blockquote>
+> "It's all about ATTITUDE"
 
-La actitud es determinante en la carrera profesional (y en la vida), también para un programador. Los 46 minutos de charla también han servido para hablar de temas relacionados con los modelos de aprendizaje:
+The attitude is determinant in the professional career (and in life), also for a programmer. The 46 minutes of talk have also served to discuss topics related to learning models:
 
-* El [efecto Dunning-Kruger](https://es.wikipedia.org/wiki/Efecto_Dunning-Kruger){:target="_blank"}: sesgo cognitivo por el cual los sujetos con pocos conocimientos o habilidades se creen mejores y más listos que otros que están mucho más capacitados o preparados.
-* El [modelo de Dreyfus de adquisición de habilidades](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition){:target="_blank"} (etapas: _novato -> novato avanzado -> competente -> proficiente -> experto_).
-* El [_Knowledge Portfolio_](http://flylib.com/books/en/1.315.1.18/1/){:target="_blank"} (ver [_The Pragmatic Programmer_](https://pragprog.com/book/tpp/the-pragmatic-programmer){:target="_blank"}).
-* Las 5 etapas del aprendizaje: _Negación, Enfado, Negociación, Depresión y Aceptación_.
-* *Sí*, en este vídeo (*como en otros muchos*) se cita a [**Malcolm Gladwell**](http://gladwell.com/){:target="_blank"}, el periodista y conferenciante que popularizó, en su obra [_Outliers_](https://en.wikipedia.org/wiki/Outliers_(book)){:target="_blank"}, la tesis de que es necesaria una dedicación de entorno a 10.000 horas en la práctica de una materia para alcanzar un nivel de maestría en esa materia.
+* The [Dunning-Kruger effect](https://es.wikipedia.org/wiki/Efecto_Dunning-Kruger){:target="_blank"}: cognitive bias by which subjects with little knowledge or skills are believed to be better and smarter than others who are much better trained or prepared.
+* The [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition){:target="_blank"} (stages: _Novice -> Advanced Beginner -> Competent -> Proficient -> Expert_).
+* The [_Knowledge Portfolio_](http://flylib.com/books/en/1.315.1.18/1/){:target="_blank"} (see [_The Pragmatic Programmer_](https://pragprog.com/book/tpp/the-pragmatic-programmer){:target="_blank"}).
+* The 5 stages of learning: _Denial, Anger, Negotiation, Depression and Acceptance_.
+* *Yes*, in this video (*as in many others*) [**Malcolm Gladwell**](http://gladwell.com/){:target="_blank"} is quoted, the journalist and lecturer who popularized, in his work [_Outliers_](https://en.wikipedia.org/wiki/Outliers_(book)){:target="_blank"}, the thesis that it is necessary a dedication of around 10,000 hours in the practice of a subject to reach a level of mastery in that matter.
 
-Lo dicho, un vídeo interesante pero... me lo esperaba mejor. Sin más.
+That said, an interesting video but ... I expected it better. 
 
-Saludos!
+*Regards!*

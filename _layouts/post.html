@@ -44,19 +44,31 @@
             <span class="small-size">
 
               <span class="readingtimecolor normalweight">
-                <i class="fa fa-calendar"></i>&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>&nbsp;
+                <i class="fa fa-calendar"></i>&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }} 
+
+                {% if page.last_modified_at %}
+                  (Updated: {{ page.last_modified_at | date: "%B %d, %Y" }})</time>&nbsp;
+                {% endif %}
 
               {% include _reading-time.html %}
 
               </span>
               &nbsp;
               <span class="active" style="">
-                <span class="nowrapping"><i class="fa fa-folder-open-o"></i>&nbsp;{{ page.category }}&nbsp;</span>
+                <span class="nowrapping"><i class="fa fa-folder-open"></i>&nbsp;{{ page.category }}&nbsp;</span>
               </span>
+              
               <br />
+
+              {% assign first_tag = true %}
               <span class="normalweight">
                 {% for tag in page.tags %}
-                  <span class="nowrapping"><i class="fa fa-tag"></i>&nbsp;{{ tag }}&nbsp;</span>
+                  {% if first_tag %}
+                    <i class="fa fa-tags"></i>
+                    {% assign first_tag = false %}
+                  {% endif %}
+
+                  <span class="nowrapping">{{ tag }}&nbsp;·</span>
                 {% endfor %}
               </span>
 
@@ -69,7 +81,7 @@
 
     <div class="article-wrap">
       
-      {{ content }}
+      <span class="justifytextbothsides">{{ content }}</span>
       
       <hr />
 
