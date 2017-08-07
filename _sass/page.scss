@@ -2,6 +2,10 @@ body {
 	background-color: $bodycolor;
 	font-family: $base-font;
 	color: $text-color;
+
+    border-top: 4px solid $mypreferredlinkcolor;
+    margin: 0;
+
 }
 .navigation-wrapper {
 	@include container;

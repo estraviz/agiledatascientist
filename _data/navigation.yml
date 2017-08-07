@@ -14,4 +14,8 @@
 
 - title: Tags
   url: /tags/
-  icon: fa-tags
+  icon: fa-tags fa-rotate-90
+
+- title: Contact
+  url: /contact/
+  icon: fa-commenting

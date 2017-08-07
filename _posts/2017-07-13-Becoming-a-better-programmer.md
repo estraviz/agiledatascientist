@@ -15,7 +15,7 @@ This time, first the video and then some notes on it:
 
 I have to confess that although the message and purpose of the talk fit with what I expected to hear, after completing the visualization I was not too enthusiastic. However, I emphasize the idea that **Peter** strives to make clear:
 
-> "It's all about ATTITUDE"
+> "It's all about ATTITUDE."
 
 The attitude is determinant in the professional career (and in life), also for a programmer. The 46 minutes of talk have also served to discuss topics related to learning models:
 

@@ -4,10 +4,10 @@ permalink: /about/
 title: ABOUT
 comments: false
 ---
-<hr />
-I currently work as Scrum Master & Project Manager at [StubHub](http://stubhub.com){:target="_blank"}, an [eBay](http://ebay.com){:target="_blank"} company. Previously, I was the IT Recruiter of [Ticketbis](https://www.ebayinc.com/stories/news/stubhub-to-expand-its-global-reach-into-47-markets-with-the-acquisition-of-ticketbis/){:target="_blank"}, the Spanish startup ticketing marketplace acquired by eBay in 2016. I worked also as Programmer/Analyst/Team Lead in consulting firms (*everybody has a past!* :)
 
-<p></p>
+***
+
+I currently work as Scrum Master & Project Manager at [StubHub](http://stubhub.com){:target="_blank"}, an [eBay](http://ebay.com){:target="_blank"} company. Previously, I was the IT Recruiter of [Ticketbis](https://www.ebayinc.com/stories/news/stubhub-to-expand-its-global-reach-into-47-markets-with-the-acquisition-of-ticketbis/){:target="_blank"}, the Spanish startup ticketing marketplace acquired by eBay in 2016. I worked also as Programmer/Analyst/Team Lead in consulting firms (*everybody has a past!* :)
 
 Academia
 ========
@@ -48,17 +48,17 @@ Other languages that I've studied on my own in the past:
 
 Old blogs of mine
 =================
-- <a href="http://YoHabloIdiomas.wordpress.com" target="_blank"><i class="fa fa-language"></i> YoHabloIdiomas</a><br />
-- <a href="http://YoHablarAleman.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i> YoHablarAleman</a><br />
-- <a href="http://DarkPhysicist.wordpress.com" target="_blank"><i class="fa fa-flask"></i> DarkPhysicist</a><br />
-- <a href="http://fotosterona.tumblr.com/" target="_blank"><i class="fa fa-picture-o"></i> Fotosterona</a><br />
-- <a href="http://rockalterno.tumblr.com" target="_blank"><i class="fa fa-volume-up"></i> Rock-Alterno</a><br />
+- [<i class="fa fa-language"></i> YoHabloIdiomas](http://YoHabloIdiomas.wordpress.com){:target="_blank"}
+- [<i class="fa fa-wordpress"></i> YoHablarAleman](http://YoHablarAleman.wordpress.com){:target="_blank"}
+- [<i class="fa fa-flask"></i> DarkPhysicist](http://DarkPhysicist.wordpress.com){:target="_blank"}
+- [<i class="fa fa-picture-o"></i> Fotosterona](http://fotosterona.tumblr.com/){:target="_blank"}
+- [<i class="fa fa-volume-up"></i> Rock-Alterno](http://rockalterno.tumblr.com){:target="_blank"}
 
 <p></p>
 
 Contact
 =======
-You can contact me easily, just by sending me an <a href="mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[AgileDataScientist]"><i class="fa fa-envelope fa-envelope-share fa-lg"></i></a>, through my <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" title="Share on LinkedIn" target="_blank"><i class="fa fa-linkedin fa-linkedin-share fa-lg"></i></a> account or via DM on <a href="http://twitter.com/estraviz" target="_blank"><i class="fa fa-twitter fa-twitter-share fa-lg"></i></a>. *Thanks!*
+You can contact me easily, just by sending me an [<i class="fa fa-envelope fa-envelope-share fa-lg"></i>](mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[ AgileDataScientist.com ]), through my [<i class="fa fa-linkedin fa-linkedin-share fa-lg"></i>](http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }} "Share on LinkedIn"){:target="_blank"} account or via DM on [<i class="fa fa-twitter fa-twitter-share fa-lg"></i>](http://twitter.com/estraviz){:target="_blank"}. *Thanks!*
 
 <p></p>
 

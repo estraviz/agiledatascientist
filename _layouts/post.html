@@ -38,12 +38,13 @@
 
   <article class="post">
     <div class="headline-wrap">
-        <h1>{{ page.title }}
+        <h1>{{ page.title }} <!--<span style="font-size:50%"><a href="{{ site.url }}{{ page.url }}"><i class="fa fa-link fa-icon-reversed"></i></a></span>-->
 
             <br />
-            <span class="small-size">
 
-              <span class="readingtimecolor normalweight">
+            <span class="small-size normalweight">
+
+              <span class="readingtimecolor">
                 <i class="fa fa-calendar"></i>&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }} 
 
                 {% if page.last_modified_at %}
@@ -54,23 +55,25 @@
 
               </span>
               &nbsp;
-              <span class="active" style="">
-                <span class="nowrapping"><i class="fa fa-folder-open"></i>&nbsp;{{ page.category }}&nbsp;</span>
+              <span class="nowrapping">
+                <a href="{{ site.url }}{{ site.categories_page.path }}#{{ page.category }}"><i class="fa fa-folder-open"></i>&nbsp;<span class="glossary">{{ page.category }}</span>&nbsp;</a>
               </span>
               
               <br />
 
               {% assign first_tag = true %}
-              <span class="normalweight">
-                {% for tag in page.tags %}
-                  {% if first_tag %}
-                    <i class="fa fa-tags"></i>
-                    {% assign first_tag = false %}
-                  {% endif %}
+              {% for tag in page.tags %}
+                
+                {% if first_tag %}
+                  <i class="fa fa-tags fa-rotate-90"></i>
+                  {% assign first_tag = false %}
+                {% endif %}
 
-                  <span class="nowrapping">{{ tag }}&nbsp;·</span>
-                {% endfor %}
-              </span>
+                <span class="nowrapping">
+                  <a href="{{ site.url }}{{ site.tags_page.path }}#{{ tag }}"><span class="glossary">{{ tag }}</span></a>&nbsp;·
+                </span>
+
+              {% endfor %}
 
             </span>
     

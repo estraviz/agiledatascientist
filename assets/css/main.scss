@@ -56,7 +56,7 @@ a:hover, .footname {
 }
 
 .active {
-    color: #36c;
+    color: $mypreferredlinkcolor;
 }
 
 .center {
@@ -70,6 +70,11 @@ a:hover, .footname {
 .small-size {
     font-size: small;
 }
+
+.preferredbackgroundcolor {
+    background-color: $mypreferredbackgroundcolor;
+}
+
 
 /**
  * Tooltip Styles
@@ -288,7 +293,7 @@ a:hover, .footname {
 
 //
 .highlightgrey {
-	background-color: #efefef;
+	background-color: $mypreferredbackgroundcolor;
 	font-family: $code-font;
 	@include font(12);
 	color: #333332;
@@ -299,10 +304,6 @@ a:hover, .footname {
 		margin: 0;
 		padding: 1em;
 	}
-}
-
-.categoryblue {
-    background-color: $mypreferredlinkcolor;
 }
 
 .nowrapping {
@@ -321,12 +322,12 @@ a:hover, .footname {
     display: inline;
 }
 
-.categorycountcolor {
-    color: lime;
-}
-
 .readingtimecolor {
     color: grey;
+}
+
+.redcolor {
+    color: #c00;
 }
 
 .normalweight {
