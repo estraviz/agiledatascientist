@@ -14,27 +14,29 @@ Should you have any comments or suggestions related with the content of the blog
   <div id="wrapping" class="boldweight">
 
     <section id="aligned">
-      Name <span class="redcolor">*</span> <input type="text" name="name" id="name" autocomplete="off" tabindex="1" class="highlight" required="">
-      <br /><br />    
-      E-mail <span class="redcolor">*</span> <input type="email" name="email" id="email" autocomplete="off" tabindex="2" class="highlight" required="">
-      <br /><br />    
-      Website <input type="url" name="website" id="website" autocomplete="off" tabindex="3" class="highlight">
-      <br /><br />
-      Message <span class="redcolor">*</span> <textarea name="message" id="message" tabindex="4" class="highlight" required=""></textarea>
+      <i class="fa fa-user"></i>&nbsp;&nbsp;Name <span class="redcolor">*</span> <input type="text" name="name" id="name" autocomplete="off" tabindex="1" class="highlight" required="">
+      <br />
+      <i class="fa fa-envelope"></i>&nbsp;&nbsp;E-mail <span class="redcolor">*</span> <input type="email" name="email" id="email" autocomplete="off" tabindex="2" class="highlight" required="">
+      <br /> 
+      <i class="fa fa-globe"></i>&nbsp;&nbsp;Website <input type="url" name="website" id="website" autocomplete="off" tabindex="3" class="highlight">
+      <br />
+      <i class="fa fa-pencil"></i>&nbsp;&nbsp;Message <span class="redcolor">*</span> <textarea name="message" id="message" tabindex="4" class="highlight" required=""></textarea>
     </section>
 
     <small class="normalweight"><i>Fields marked with an <span class="redcolor">*</span> are required</i></small>
 
-    <br />
+    <br /><br />
     
     <section id="buttons">
       <span class="pull-right">
-        <input type="reset" name="reset" id="resetbtn" class="btn btn-reset" tabindex="6" value="Reset">
-        <input type="submit" name="submit" id="submitbtn" class="btn btn-send" tabindex="7" value="Send">
+        <button type="reset" name="reset" id="resetbtn" class="btn btn-reset" tabindex="6"><i class="fa fa-times"></i>&nbsp;&nbsp;Reset</button>
+        <button type="submit" name="submit" id="submitbtn" class="btn btn-send" tabindex="7"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
       </span>
       <br style="clear:both;">
     </section>
 
   </div>
+
+  <input type="hidden" name="_next" value="//agiledatascientist.com/contact/thank-you.html" />
 
 </form>
