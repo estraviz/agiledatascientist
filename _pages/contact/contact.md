@@ -14,13 +14,13 @@ Should you have any comments or suggestions related with the content of the blog
   <div id="wrapping" class="boldweight">
 
     <section id="aligned">
-      <i class="fa fa-user"></i>&nbsp;&nbsp;Name <span class="redcolor">*</span> <input type="text" name="name" id="name" autocomplete="off" tabindex="1" class="highlight" required="">
+      <i class="fa fa-user"></i>&nbsp;&nbsp;Name <span class="redcolor">*</span> <input type="text" name="name" id="name" autocomplete="off" tabindex="1" class="highlight" required="" placeholder="Your name">
       <br />
-      <i class="fa fa-envelope"></i>&nbsp;&nbsp;E-mail <span class="redcolor">*</span> <input type="email" name="email" id="email" autocomplete="off" tabindex="2" class="highlight" required="">
+      <i class="fa fa-envelope"></i>&nbsp;&nbsp;E-mail <span class="redcolor">*</span> <input type="email" name="email" id="email" autocomplete="off" tabindex="2" class="highlight" required="" placeholder="E-mail address (will not be public)">
       <br /> 
-      <i class="fa fa-globe"></i>&nbsp;&nbsp;Website <input type="url" name="website" id="website" autocomplete="off" tabindex="3" class="highlight">
+      <i class="fa fa-globe"></i>&nbsp;&nbsp;Website <input type="url" name="website" id="website" autocomplete="off" tabindex="3" class="highlight" placeholder="Website (optional)">
       <br />
-      <i class="fa fa-pencil"></i>&nbsp;&nbsp;Message <span class="redcolor">*</span> <textarea name="message" id="message" tabindex="4" class="highlight" required=""></textarea>
+      <i class="fa fa-pencil"></i>&nbsp;&nbsp;Message <span class="redcolor">*</span> <textarea name="message" id="message" tabindex="4" class="highlight" required="" placeholder="Enter your message here"></textarea>
     </section>
 
     <small class="normalweight"><i>Fields marked with an <span class="redcolor">*</span> are required</i></small>
