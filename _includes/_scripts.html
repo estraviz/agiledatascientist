@@ -6,17 +6,6 @@
 
 <!-- Simple-Jekyll-Search implementation -->
 <script src="{{ site.baseurl }}/assets/js/jekyll-search.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<h4 class="inlinedisplay"><a href="{url}" title="{desc}">{title}</a></h4><p>{description}</p>',
-    noResultsText: '<h4>No results found</h4>',
-    limit: 20
-  })
-</script> 
 <!-- --> 
 
 <!-- Forms -->
@@ -39,10 +28,31 @@
               }
           } 
       });
-      var interval = setInterval(myFunc, 1000);
   });
-
 </script>
+<!-- -->
+
+<!-- Scroll to top -->
+<script type="text/javascript">
+  $(function scrollUpFunc() {
+      $('#scrollButton').hide();
+
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+              $('#scrollButton').fadeIn();
+          } else {
+              $('#scrollButton').fadeOut();
+          }
+      });
+
+      $('#scrollButton').click(function animateScrollUp() { 
+        $("html, body").animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+      });
+  });
+</script>  
 <!-- -->
 
 {% if site.owner.google.analytics %}

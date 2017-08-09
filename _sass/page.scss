@@ -4,6 +4,7 @@ body {
 	color: $text-color;
 
     border-top: 4px solid $mypreferredlinkcolor;
+    border-bottom: 4px solid $mypreferredlinkcolor;
     margin: 0;
 
 }
@@ -565,7 +566,7 @@ $button-size: 1.5rem;
 	@include container;
 	@include clearfix;
 	clear: both;
-	padding-bottom: 3em;
+	padding-bottom: 1em;//3em
 	a,
 	a:active,
 	a:visited,

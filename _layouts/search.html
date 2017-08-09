@@ -56,7 +56,19 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}        
+{% include _scripts.html %}     
+
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<h4 class="inlinedisplay"><a href="{url}" title="{desc}">{title}</a></h4><p>{description}</p>',
+    noResultsText: '<h4>No results found</h4>',
+    limit: 20
+  })
+</script> 
+   
 
 </body>
 </html>

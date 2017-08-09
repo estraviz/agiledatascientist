@@ -343,9 +343,6 @@ a:hover, .footname {
 }
 
 // search
-#search-container {
-}
-
 #search-input {
 display: inline-block;
 padding: .5em;
@@ -354,4 +351,19 @@ font-size: 0.8em;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
+}
+
+// scroll up
+.scrollBtn {
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    margin: 0 0.5em 1.5em 0;
+    position: fixed;
+    font-size: 1em;
+    background-color: rgba(239,239,239,0.5);
+}
+
+a:hover.scrollBtn,a.scrollBtn {
+    text-decoration: none;
 }

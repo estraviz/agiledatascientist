@@ -23,14 +23,14 @@ comments: false
       {% capture category_name %}{{ category | first }}{% endcapture %}
 
       <div id="{{ category_name | slugize }}">
-      <h3 class="category-head">{{ category_name }} <a href="#archives"><i class="small-size active">&#8673;</i></a></h3>
+      <h3 class="category-head">{{ category_name }}</h3>
 
       {% for post in site.categories[category_name] %}
 
         <span class="inlinedisplay">
           <article class="archive-item">
             <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">&#8227; {{ post.title }}</a> 
-            <span class="dateline">{{ post.date | date: "%B %d, %Y" }}</span>
+            <span class="readingtimecolor"><small><i class="nowrapping">({{ post.date | date: "%B %d, %Y" }})</i></small></span>
           </article>
         </span>
 
