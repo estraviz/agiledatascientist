@@ -69,7 +69,7 @@ owner:
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-# Navigation menu: relative paths
+# Navigation menu: relative paths in post.html
 about_page:
   path: /about/
 
@@ -81,3 +81,6 @@ tags_page:
 
 contact_page:
   path: /contact/
+
+search_page:
+  path: /search/
