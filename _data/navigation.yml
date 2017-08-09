@@ -19,3 +19,7 @@
 - title: Contact
   url: /contact/
   icon: fa-commenting
+
+- title: Search
+  url: /search/
+  icon: fa-search  

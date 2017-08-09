@@ -4,6 +4,47 @@
 
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 
+<!-- Simple-Jekyll-Search implementation -->
+<script src="{{ site.baseurl }}/assets/js/jekyll-search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<h4 class="inlinedisplay"><a href="{url}" title="{desc}">{title}</a></h4><p>{description}</p>',
+    noResultsText: '<h4>No results found</h4>',
+    limit: 20
+  })
+</script> 
+<!-- --> 
+
+<!-- Forms -->
+<script type="text/javascript">
+  function getFocus(input) {
+      input.style.background = "lightyellow";
+  }
+  function loseFocus(input) {
+      input.style.background = "#efefef";
+  }
+
+  $(function clearResultsEmptySearchBox() {
+      var content = $('#search-input').val();
+      var myNode = document.getElementById('results-container');
+
+      $('#search-input').keyup(function myFunc() { 
+          if ($('#search-input').val() == "") {
+              while(myNode.firstChild) {
+                myNode.removeChild(myNode.firstChild);
+              }
+          } 
+      });
+      var interval = setInterval(myFunc, 1000);
+  });
+
+</script>
+<!-- -->
+
 {% if site.owner.google.analytics %}
   <!-- Asynchronous Google Analytics snippet -->
   <script>
