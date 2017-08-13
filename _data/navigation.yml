@@ -2,15 +2,15 @@
 
 - title: About
   url: /about/
-  icon: fa-info-circle
+  icon: fa-question-circle-o
 
-- title: Posts
+- title: Blog
   url: /posts/
-  icon: fa-pencil
+  icon: fa-pencil-square-o
 
 - title: Categories
   url: /categories/
-  icon: fa-folder-open
+  icon: fa-folder-open-o
 
 - title: Tags
   url: /tags/
@@ -18,7 +18,7 @@
 
 - title: Contact
   url: /contact/
-  icon: fa-commenting
+  icon: fa-commenting-o
 
 - title: Search
   url: /search/
