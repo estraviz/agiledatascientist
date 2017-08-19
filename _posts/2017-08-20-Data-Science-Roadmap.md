@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Science Roadmap"
+title: "🌟 Data Science Roadmap"
 description: "A personal initiative to increment my knowledge in Data Science"
 category: Data Science
 comments: true
