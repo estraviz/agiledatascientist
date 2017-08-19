@@ -358,12 +358,16 @@ box-sizing: border-box;
     text-align: center;
     bottom: 0;
     right: 0;
-    margin: 0 0.5em 1.5em 0;
+    margin: 0 0.5em 0.5em 0;
     position: fixed;
-    font-size: 1em;
+    font-size: 1.5em;
     background-color: rgba(239,239,239,0.5);
 }
 
 a:hover.scrollBtn,a.scrollBtn {
     text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
 }

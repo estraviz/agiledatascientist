@@ -17,13 +17,13 @@ comments: false
     </span>
   {% endfor %}
   </div>
-
+<hr />
   {% for category in sortedcats %}
     <div class="archive-group">
       {% capture category_name %}{{ category | first }}{% endcapture %}
 
       <div id="{{ category_name | slugize }}">
-      <h3 class="category-head">{{ category_name }}</h3>
+      <h3 class="category-head inlinedisplay">{{ category_name }}</h3>
 
       {% for post in site.categories[category_name] %}
 
@@ -36,9 +36,9 @@ comments: false
 
       {% endfor %}
   &nbsp;
-      </div>
-      
+      </div>      
     </div>
+    <br />
   {% endfor %}
 
 </div>

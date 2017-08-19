@@ -45,7 +45,7 @@
             <span class="small-size normalweight">
 
               <span class="readingtimecolor">
-                <i class="fa fa-calendar"></i>&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}&nbsp;&nbsp; 
+                <i class="fa fa-calendar"></i>&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}&nbsp;
 
                 {% if page.last_modified_at %}
                   (Updated: {{ page.last_modified_at | date: "%B %d, %Y" }})</time>&nbsp;
@@ -58,25 +58,22 @@
               <span class="nowrapping">
                 <a href="{{ site.url }}{{ site.categories_page.path }}#{{ page.category }}"><i class="fa fa-folder-open-o"></i>&nbsp;<span class="glossary readingtimecolor">{{ page.category }}</span>&nbsp;</a>
               </span>
-              
-              <br />
 
               {% assign first_tag = true %}
               {% for tag in page.tags %}
                 
                 {% if first_tag %}
-                  <i class="fa fa-tags fa-rotate-90"></i>
+                  <span class="nowrapping"><i class="fa fa-tags fa-rotate-90"></i>&nbsp;<a href="{{ site.url }}{{ site.tags_page.path }}#{{ tag }}"><span class="glossary readingtimecolor">{{ tag }}</span></a>
+                  </span>
                   {% assign first_tag = false %}
-                {% endif %}
-
-                <span class="nowrapping">
-                  <a href="{{ site.url }}{{ site.tags_page.path }}#{{ tag }}"><span class="glossary readingtimecolor">{{ tag }}</span></a>&nbsp;·
+                {% else %}
+                  · <span class="nowrapping"><a href="{{ site.url }}{{ site.tags_page.path }}#{{ tag }}"><span class="glossary readingtimecolor">{{ tag }}</span></a>
                 </span>
+                {% endif %}
 
               {% endfor %}
 
             </span>
-    
         </h1>
     </div><!--/ .headline-wrap -->
 

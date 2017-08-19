@@ -16,6 +16,10 @@
   url: /tags/
   icon: fa-tags fa-rotate-90
 
+- title: Map
+  url: http://www.github.com/estraviz/data-science-roadmap
+  icon: fa-map-o
+
 - title: Contact
   url: /contact/
   icon: fa-commenting-o
