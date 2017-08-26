@@ -45,10 +45,10 @@
           }
       });
 
-      $('#scrollButton').click(function animateScrollUp() { 
+      $('#homeImage, #scrollButton').on('click', function animateScrollUp() { 
         $("html, body").animate({
             scrollTop: 0
-        }, 500);
+        }, 750);
         return false;
       });
   });

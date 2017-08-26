@@ -3,7 +3,7 @@ body {
 	font-family: $base-font;
 	color: $text-color;
 
-    border-top: 4px solid $mypreferredlinkcolor; 
+    border-top: 4px solid $mypreferredlinkcolor;
     margin: 0;
 
 }
@@ -336,9 +336,9 @@ $button-size: 1.5rem;
   margin-bottom: 5px;
   @include font-rem(14);
   color: $black;
-  //&:visited {
-    //color: $black;
-  //}
+  &:visited {
+    color: $black;
+  }
   &:hover {
     @include scale(1.1);
     //font-weight: bold;

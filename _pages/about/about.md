@@ -33,12 +33,13 @@ Other courses
 
 Languages
 =========
+
 * Spanish: Native. C2 level (see [*CEFR of Reference for Languages*](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages){:target="_blank"})
 * English: Certificate in Advanced English (CAE). C1 level.
 * Basque : Euskararen Gaitasun Agiria (EGA). C1 level.
 * Chinese: HSK2, [Hanban Institute](http://spanish.hanban.org/){:target="_blank"}. A2 level.
 
-Other languages that I've studied on my own in the past:
+Other languages that I have studied on my own in the past:
 
 * Catalan.
 * German.
@@ -46,19 +47,33 @@ Other languages that I've studied on my own in the past:
 
 <p></p>
 
+Photography
+===========
+My main site:
+- [<i class="fa fa-camera-retro floatleft">&nbsp;</i><img src="{{ site.url }}/images/javier-estraviz-photography.png" class="floatleft alignv" />](http://javier.estraviz.photography "Visit: http://javier.estraviz.photography/"){:target="_blank"} 
+
+But also here:
+
+- [<i class="fa fa-500px"></i> 500px](https://500px.com/estraviz){:target="_blank"}
+- [<i class="fa fa-flickr"></i> Flickr](https://flickr.com/photos/estravizhausen){:target="_blank"}
+- [<i class="fa fa-instagram"></i> Instagram](https://www.instagram.com/fotosterona){:target="_blank"}
+
+<p></p>
+
 Old blogs of mine
 =================
-- [<i class="fa fa-language"></i> YoHabloIdiomas](http://YoHabloIdiomas.wordpress.com){:target="_blank"}
-- [<i class="fa fa-wordpress"></i> YoHablarAleman](http://YoHablarAleman.wordpress.com){:target="_blank"}
-- [<i class="fa fa-flask"></i> DarkPhysicist](http://DarkPhysicist.wordpress.com){:target="_blank"}
-- [<i class="fa fa-picture-o"></i> Fotosterona](http://fotosterona.tumblr.com/){:target="_blank"}
-- [<i class="fa fa-volume-up"></i> Rock-Alterno](http://rockalterno.tumblr.com){:target="_blank"}
+- [<i class="fa fa-language"></i> YoHabloIdiomas](http://YoHabloIdiomas.wordpress.com){:target="_blank"} (*inactive*)
+- [<i class="fa fa-flask "></i> <i class="strikethrough">DarkPhysicist</i>](http://DarkPhysicist.wordpress.com){:target="_blank"} 
+- [<i class="fa fa-wordpress"></i> <i class="strikethrough">YoHablarAleman</i>](http://YoHablarAleman.wordpress.com){:target="_blank"}
+- [<i class="fa fa-picture-o"></i> <i class="strikethrough">Fotosterona</i>](http://fotosterona.tumblr.com/){:target="_blank"}
 
 <p></p>
 
 Contact
 =======
-You can contact me easily, just by sending me an [<i class="fa fa-envelope fa-envelope-share fa-lg"></i>](mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[ AgileDataScientist.com ]), through my [<i class="fa fa-linkedin fa-linkedin-share fa-lg"></i>](http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }} "Share on LinkedIn"){:target="_blank"} account or via DM on [<i class="fa fa-twitter fa-twitter-share fa-lg"></i>](http://twitter.com/estraviz){:target="_blank"}. *Thanks!*
+You can contact me by sending me an [<i class="fa fa-envelope fa-envelope-share fa-lg"></i>](mailto:javier.estraviz+AgileDataScientist@gmail.com?subject=[ AgileDataScientist.com ]), through my [<i class="fa fa-linkedin fa-linkedin-share fa-lg"></i>](http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }} "Share on LinkedIn"){:target="_blank"} account or via DM on [<i class="fa fa-twitter fa-twitter-share fa-lg"></i>](http://twitter.com/estraviz){:target="_blank"}. 
+
+*Thanks!*
 
 <p></p>
 
