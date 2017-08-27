@@ -1,3 +1,5 @@
 .sass-cache/
 _site/
 Gemfile.lock
+_Rmd/.DS_Store
+_Rmd/.Rhistory

@@ -27,7 +27,9 @@
 
 <link rel="stylesheet" href="{{ site.url }}/assets/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="{{ site.url }}/assets/css/syntax.css">
+{% if page.highlight %}
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/syntax.css">
+{% endif %}
 
 <meta http-equiv="cleartype" content="on">
 
