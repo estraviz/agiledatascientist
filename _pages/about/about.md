@@ -56,7 +56,7 @@ But also here:
 
 - [<i class="fa fa-500px"></i> 500px](https://500px.com/estraviz){:target="_blank"}
 - [<i class="fa fa-flickr"></i> Flickr](https://flickr.com/photos/estravizhausen){:target="_blank"}
-- [<i class="fa fa-instagram"></i> Instagram](https://www.instagram.com/fotosterona){:target="_blank"}
+- [<i class="fa fa-instagram"></i> Instagram](https://www.instagram.com/JavierEstraviz/){:target="_blank"}
 
 <p></p>
 
