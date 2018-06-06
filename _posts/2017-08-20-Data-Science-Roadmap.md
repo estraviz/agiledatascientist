@@ -12,8 +12,8 @@ I am one of those that enjoy searching the web for valuable resources in areas o
 
 This is an idea inspired to similar ones that I have seen from others. For example, these two projects:
 
-* [Coding Interview University](https://github.com/jwasham/coding-interview-university).
-* [Top-down learning path: Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers).
+* [Coding Interview University](https://github.com/jwasham/coding-interview-university){:target="_blank"}.
+* [Top-down learning path: Machine Learning for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers){:target="_blank"}.
 
 You can inspect these interesting repos and the corresponding reasons of the authors to create them. I think my goal may be somehow similar.
 
@@ -32,6 +32,6 @@ Too much information that I wanted to have more manageable and ordered to my tas
 9. Miscellaneous.
 10. Books.
 
-For each course entry, I have included the link to it, the syllabus as I have mentioned above, the author and institution, and sometimes an estimation of the shortest time required for it. This latest info is based on what appears for example in [DataCamp](https://www.datacamp.com/), [Coursera](https://www.coursera.org/), [edX](https://www.edx.org/), [Udacity](https://www.udacity.com/), or even [Class Central](https://www.class-central.com/). Some courses may not include this information and I have preferred not to give any wrong estimation. 
+For each course entry, I have included the link to it, the syllabus as I have mentioned above, the author and institution, and sometimes an estimation of the shortest time required for it. This latest info is based on what appears for example in [DataCamp](https://www.datacamp.com/){:target="_blank"}, [Coursera](https://www.coursera.org/){:target="_blank"}, [edX](https://www.edx.org/){:target="_blank"}, [Udacity](https://www.udacity.com/){:target="_blank"}, or even [Class Central](https://www.class-central.com/){:target="_blank"}. Some courses may not include this information and I have preferred not to give any wrong estimation. 
 
 *Regards!*
