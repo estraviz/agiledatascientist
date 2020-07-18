@@ -20,7 +20,7 @@ Academia
 Other blogs of mine
 ===================
 - [<i class="fa fa-flask "></i> DarkPhysicist](http://DarkPhysicist.wordpress.com){:target="_blank"}: high energy physics and related stuff... Revamped recently, although not very active. 
-- [<i class="fa fa-language"></i> YoHabloIdiomas](http://YoHabloIdiomas.wordpress.com){:target="_blank"}: a blog about foreign languages, currently inactive.
+- [<i class="fa fa-language"></i> YoHabloIdiomas](https://yohabloidiomas.wordpress.com/){:target="_blank"}: a blog about foreign languages, currently inactive.
 
 <p></p>
 
