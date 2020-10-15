@@ -7,7 +7,9 @@ comments: false
 
 ***
 
-I currently work as Scrum Master & Project Manager at [**StubHub**](http://stubhub.com){:target="_blank"}, an [**eBay**](http://ebay.com){:target="_blank"} company. Previously, I was the IT Recruiter of [Ticketbis](https://www.ebayinc.com/stories/news/stubhub-to-expand-its-global-reach-into-47-markets-with-the-acquisition-of-ticketbis/){:target="_blank"}, the Spanish startup ticketing marketplace acquired by eBay in 2016. I worked also as Programmer/Analyst/Team Lead in consulting firms (*everybody has a past!* :)
+I currently work as a **Data Engineer** at [**Lookiero**](https://lookiero.com/).
+
+Previously, I was a Scrum Master & Technical Program Manager at [**StubHub**](http://stubhub.com){:target="_blank"}, an [**eBay**](http://ebay.com){:target="_blank"} company. Before that I was the IT Recruiter of [Ticketbis](https://www.ebayinc.com/stories/news/stubhub-to-expand-its-global-reach-into-47-markets-with-the-acquisition-of-ticketbis/){:target="_blank"}, the Spanish startup ticketing marketplace acquired by eBay in 2016. I worked also as Programmer/Analyst/Team Lead in consulting firms (*everybody has a past!* :)
 
 Academia
 ========
