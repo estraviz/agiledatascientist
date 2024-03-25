@@ -29,8 +29,11 @@ Academia
 
 Other blogs of mine
 ===================
-- [<i class="fa fa-flask "></i> DarkPhysicist](http://DarkPhysicist.wordpress.com){:target="_blank"}: high energy physics and related stuff... Revamped recently, although not very active. 
-- [<i class="fa fa-language"></i> YoHabloIdiomas](https://yohabloidiomas.wordpress.com/){:target="_blank"}: a blog about foreign languages, currently inactive.
+* [🏋️ AgileDataScientist](https://estraviz.github.io/estraviz2017/), the previous version of this blog (up to 2017).
+* [🗣️ YoHabloIdiomas](https://yohabloidiomas.wordpress.com/), a blog about foreign languages.
+* [🇩🇪 YoHablarAleman](https://yohablaraleman.wordpress.com/), a blog about the German language.
+* [🔭 DarkPhysicist](https://darkphysicist.wordpress.com/), High Energy Physics and related stuff.
+* [🎸 RockAlterno](https://rockalterno.tumblr.com/), a Tumblr blog about Alternative/Rock/Metal Music.
 
 <p></p>
 
