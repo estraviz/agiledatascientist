@@ -7,9 +7,17 @@ comments: false
 
 ***
 
-I currently work as a **Data Engineer** at [**Lookiero**](https://lookiero.com/).
+My name is **Javier Estraviz* and I’m a Data Engineer.
 
-Previously, I was a Scrum Master & Technical Program Manager at [**StubHub**](http://stubhub.com){:target="_blank"}, an [**eBay**](http://ebay.com){:target="_blank"} company. Before that I was the IT Recruiter of [Ticketbis](https://www.ebayinc.com/stories/news/stubhub-to-expand-its-global-reach-into-47-markets-with-the-acquisition-of-ticketbis/){:target="_blank"}, the Spanish startup ticketing marketplace acquired by eBay in 2016. I worked also as Programmer/Analyst/Team Lead in consulting firms (*everybody has a past!* :)
+I work in 🔬 [Frontiers](https://www.frontiersin.org/), the open-access publisher of scientific journals (the 6th largest academic publisher and 3rd most-cited publisher, January 2024).
+
+Before that, I worked in 👚 [Lookiero](https://lookiero.es/), also as a Data Engineer. Lookiero is an online Personal Shopper service, present in many European countries.
+
+Even before that, I was a Technical Program Manager at 🎟️ [StubHub](https://en.wikipedia.org/wiki/StubHub), an  [eBay](https://www.ebay.com/) company for many years.
+
+Previously, I was the IT Recruiter of 🎫 [Ticketbis](https://www.crunchbase.com/organization/ticketbis), the Spanish startup ticketing marketplace acquired by eBay in 2016.
+
+Back in the years, I occupied various positions (from Programmer to Team Lead) in several 👔 consulting firms (everybody has a past!).
 
 Academia
 ========
