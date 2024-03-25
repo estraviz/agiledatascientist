@@ -7,7 +7,7 @@ comments: false
 
 ***
 
-My name is **Javier Estraviz* and I’m a Data Engineer.
+My name is **Javier Estraviz** and I’m a Data Engineer.
 
 I work in 🔬 [Frontiers](https://www.frontiersin.org/), the open-access publisher of scientific journals (the 6th largest academic publisher and 3rd most-cited publisher, January 2024).
 
